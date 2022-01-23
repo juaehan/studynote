@@ -66,9 +66,9 @@
 
 ### 5. 터미널 명령어
 #### Window  
-![아이콘](window.jpg)
+![아이콘](window.JPG)
 #### MacOs  
-![아이콘](mac.jpg)
+![아이콘](mac.JPG)
 
 ---
 
@@ -94,7 +94,7 @@
 - 기존키가 있을경우 덮어쓰기(Y)
 - 비밀번호란 그냥 enter
 - Key 생성 완료  
-  ![아이콘](key.jpg)
+  ![아이콘](key.JPG)
 - 인증서 파일 경로 접근
   - 윈도우 : C:/Users/사용자이름/.ssh
   - 맥 : `open ~/.ssh`
@@ -115,7 +115,7 @@
 ### 6. Git 명령어
 - 업로드 대기(커밋)
   - `git add --all`
-  - `git commit -m` "작업내용에 대한 간략한 코멘트"
+  - `git commit -m "작업내용에 대한 간략한 코멘트"`
   - 위 두개는 세트이므로 커밋할 경우 두개 모두 입력
 - 커밋 내역 저장소에 업로드
   - `git push origin main`

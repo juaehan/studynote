@@ -1,6 +1,9 @@
 # JavaScript
 
-## #01. JS코드   
+## #01. 변수
+
+
+## **JS코드   
 ```javascript
     console.group(그룹명);
         console.log("test");

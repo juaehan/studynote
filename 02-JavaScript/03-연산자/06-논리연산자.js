@@ -39,40 +39,33 @@ console.groupEnd();
 /** 5) 복합사용 */
 console.group("5) 복합사용");
 // AND가 OR보다 항상 우선한다.
-// t || t -> t
-console.log(true && true || true);
-// t || f -> t
-console.log(true && true || false);
-// f || t -> t
-console.log(false && false || true);
-// f || f -> t
-console.log(false && true || true);
 
-// t || t -> t
-console.log(true || true && true);
-// t || f -> t
-console.log(true || true && false);
-// f || f -> t
-console.log(false || false && true);
-// f || t -> t
-console.log(false || true && true);
+console.log(true && true || true);      // true
+console.log(true && true || false);      // true
+console.log(false && false || true);      // true
+console.log(false && true || true);      // true
+
+console.log(true || true && true);      // true
+console.log(true || true && false);      // true
+console.log(false || false && true);      // false
+console.log(false || true && true);      // true
 console.groupEnd();
 
 /** 6) not */
 console.group("6) not");
 let success = true;
-let fail = !success;    // not true이므로 false
+let fail = !success;    // not true --> fasle
 console.log(fail);
 
 let k = 1;
-console.log(!k);    // 숫자1은 true에 대응하므로 not ture --> false
+console.log(!k);    // not ture --> false
 
 let l = 0;
-console.log(!l);    // 숫자0은 false 대응하므로 not false --> ture
+console.log(!l);    // not false --> ture
 
 let str1 = "Hello";
-console.log(!str1);    // 내용이 있는 문장은 true. not true ->false
+console.log(!str1);    // not true ->false
 
 let str2 = "";
 console.log(!str2);
-console.groupEnd();    // 내용이 없는 문장은 false. not false ->true
+console.groupEnd();    // not false ->true

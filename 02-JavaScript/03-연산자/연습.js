@@ -1,4 +1,5 @@
-const year = 2022;
-let age = year-1998;
-age++;
-console.log("나는 %d세 입니다",age);
+
+const numOfApples = 123;
+const bucketSize = 10;
+const numBucket = numOfApples/bucketSize+(numOfApples%bucketSize>0 ? 1 : 0);
+console.log(numBucket);

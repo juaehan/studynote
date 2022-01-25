@@ -109,6 +109,13 @@ console.log(typeof sampleValue1);  //number
 |1GB|1024MB|1YB|1024ZB|
 
 ### 2) 이스케이프
+|표시|의미|
+|---|---|
+|%d|숫자|
+|%s|문자열|
+|%o|객체|
+|%j|JSON|
+
 NaN(Not a Number) : "숫자가 아니다" 라는 의미
 
 ---

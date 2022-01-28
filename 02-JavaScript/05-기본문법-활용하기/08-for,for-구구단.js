@@ -6,5 +6,6 @@ for (let i=2; i<10; i++){
     for(let j=1; j<10; j++){
         console.log("%d x %d = %d", i, j, i*j);
     }
+    console.log("----");
     console.groupEnd();
 }

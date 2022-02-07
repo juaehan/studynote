@@ -16,23 +16,23 @@ const user = {
 };
 
 const member = user;
-console.log(user);
-console.log(member);
+console.log(user);          // { name: 'Lee' }
+console.log(member);        // { name: 'Lee' }
 
 member.name="Kim";
-console.log(user);
-console.log(member);
+console.log(user);          // { name: 'Kim' }
+console.log(member);        // { name: 'Kim' }
 
 const d1 = [1,2,3];
 const d2 = d1;
-console.log(d1);
-console.log(d2);
+console.log(d1);            // [1, 2, 3]
+console.log(d2);            // [1, 2, 3]
 
 d1[0] += 10;
 d1[1] += 10;
 d1[2] += 10;
-console.log(d1);
-console.log(d2);
+console.log(d1);            // [11, 12, 13]
+console.log(d2);            // [11, 12, 13]
 
 
 

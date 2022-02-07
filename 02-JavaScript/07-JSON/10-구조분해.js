@@ -5,8 +5,8 @@ const object = {a: 1, b: 2};
 // --> object에는 {}안에 명시된 항목과 동일한 key를 갖는 데이터가 존재해야 함
 const {a, b} = object;
 
-console.log(a);
-console.log(b);
+console.log(a);     // 1
+console.log(b);     // 2
 
 
 // 구조분해를 활용하여 필요한 데이터만 추출하기

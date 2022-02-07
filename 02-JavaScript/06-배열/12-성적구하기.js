@@ -25,7 +25,7 @@ for(let i=0; i<grade.length; i++){
 
     // i번째 행에서 0번째 열은 학생 이름이므로 합산에서 제외한다.
     for(let j=1; j<grade[i].length; j++){
-        //console.log(grade[i][j]);
+        console.log(grade[i][j]);
         sum += grade[i][j];
         personal_sum += grade[i][j];
     }

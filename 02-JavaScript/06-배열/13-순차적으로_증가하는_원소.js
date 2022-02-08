@@ -11,7 +11,7 @@ var data = new Array(6);
 for(let i=0; i<data.length; i++){
     data[i]=new Array(7);
 }
-console.log(data);
+//console.log(data);
 
 // 1씩 증가할 값
 let counter = 1;

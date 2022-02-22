@@ -59,3 +59,4 @@ console.log(two);
 console.log(b1);        // 1
 console.log(b2);        // 2
 console.log(rest_c);    // [3, 4, 5, 6, 7, 8, 9]
+

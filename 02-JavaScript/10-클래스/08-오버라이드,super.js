@@ -37,9 +37,11 @@ class Firebat extends Terran{
 const m = new Marine("해병1", 120, 30);
 // 자식 클래스에 의해 재정의된 기능 호출 --> 부모의 메서드는 가려진다.
 m.attack("질럿");
+console.log("---------------------------------");
 
 const t = new Tank("탱크1", 120, 30);
 t.attack("드라군");
+console.log("---------------------------------");
 
 const f = new Firebat("화염방사병");
 f.attack("적");

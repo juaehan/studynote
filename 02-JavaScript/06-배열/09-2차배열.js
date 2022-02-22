@@ -12,11 +12,11 @@ console.log(myArr2);
 /** 3) 2차 배열의 원소 접근 */
 // 행 -> 열 순으로 인덱스를 열거한다.
 console.log(myArr2[0][0]);  //  --> 1
-console.log(myArr2[0][1]);  //  --> 1
-console.log(myArr2[0][2]);  //  --> 1
-console.log(myArr2[1][0]);  //  --> 1
-console.log(myArr2[1][1]);  //  --> 1
-console.log(myArr2[1][2]);  //  --> 1
+console.log(myArr2[0][1]);  //  --> 2
+console.log(myArr2[0][2]);  //  --> 3
+console.log(myArr2[1][0]);  //  --> 4
+console.log(myArr2[1][1]);  //  --> 5
+console.log(myArr2[1][2]);  //  --> 6
 
 /** 4) Array 클래스를 통한 2차 배열 */
 const c = new Array(10, 20, 30);

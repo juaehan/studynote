@@ -20,3 +20,6 @@ console.log(myArr3);
 // 값이 존재하지 않는 5개의 빈 칸을 갖는 배열 만들기
 let myArr4 = new Array(5);
 console.log(myArr4);
+
+let my = [];
+console.log(my);

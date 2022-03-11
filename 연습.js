@@ -1,1 +1,0 @@
-setTimeout(name => console.log('hi ${name}'), 2000, 'lee');

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="date"></h1>
+    <script>
+        setInterval(() => {
+            const date = new Date();
+            let yy = date.getFullYear();
+            let mm = date.getMonth()+1;
+            let dd = date.getDate();
+            let hh = date.getHours();
+            let mi = date.getMinutes();
+            let ss = date.getSeconds();
+
+            if(mm < 10) {
+                mm = '0'+mm
+            }
+
+            if(dd < 10) {
+                dd = '0'+dd
+            }
+
+            if(hh < 10) {
+                hh = '0'+hh
+            }
+
+            if(mi < 10) {
+                mi = '0'+mi
+            }
+
+            if(ss < 10) {
+                ss = '0'+ss
+            }
+
+            document.getElementById('date').innerHTML = `${yy}-${mm}-${dd} ${hh}:${mi}:${ss}`;
+        }, 1000);
+    </script>
+</body>
+</html>

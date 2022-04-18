@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .push_noti_off{
+            background:rgb(175, 175, 175);
+            color:blue;
+            border:1px solid black;
+            padding:5px 10px;
+        }
+        .push_noti_on{
+            background:yellow;
+            color:red;
+            padding:5px 10px;
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn" class="push_noti_off">푸시알림 수신</button>
+
+    <script>
+        document.querySelector('#btn').addEventListener('click',(e) =>{
+            const current = e.currentTarget;
+
+            current.classList.toggle('push_noti_on');
+            current.classList.toggle('push_noti_off');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>학과관리 ::: MySchool</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container view">
+        <div data-include="inc/header.html"></div>
+        <section>
+            <dl>
+                <dt>학생번호</dt>
+                <dd class="id"></dd>
+
+                <dt>학생명</dt>
+                <dd class="name"></dd>
+
+                <dt>아이디</dt>
+                <dd class="userid"></dd>
+
+                <dt>학년</dt>
+                <dd class="grade"></dd>
+
+                <dt>주민번호</dt>
+                <dd class="idnum"></dd>
+
+                <dt>생년월일</dt>
+                <dd class="birthdate"></dd>
+
+                <dt>전화번호</dt>
+                <dd class="tel"></dd>
+
+                <dt>키</dt>
+                <dd class="height"></dd>
+
+                <dt>몸무게</dt>
+                <dd class="weight"></dd>
+
+                <dt>학과번호</dt>
+                <dd class="deptno"></dd>
+
+                <dt>담당교수</dt>
+                <dd class="profno"></dd>
+            </dl>
+            <a href="index.html">목록보기</a>
+            <a href="#" class="btn-edit">수정하기</a>
+            <a href="#" class="btn-delete">삭제하기</a>
+        </section>
+        <div data-include="inc/footer.html"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="assets/js/include.js"></script>
+    <script>
+        (async () => {
+            console.log(`search값 => ${window.location.search}`);
+
+            const params = new URLSearchParams(window.location.search);
+
+            const id = params.get('id');
+            console.log(id);
+
+            if(!id) {
+                alert('학생번호가 없습니다.');
+                history.back();
+                return;
+            }
+
+            /* ajax 요청 */
+            let json = null;
+
+            try{
+                json = await axios.get(`http://localhost:3000/student/${id}`);
+            } catch (e) {
+                console.error(e);
+                alert('요청을 처리하는데 실패했습니다.');
+                return;
+            }
+
+            if(json != null){
+                const {data} = json;
+                document.querySelector('.id').innerHTML = data.id;
+                document.querySelector('.name').innerHTML = data.name;
+                document.querySelector('.userid').innerHTML = data.userid;
+                document.querySelector('.grade').innerHTML = data.grade;
+                document.querySelector('.idnum').innerHTML = data.idnum;
+                document.querySelector('.birthdate').innerHTML = new Date(data.birthdate).toLocaleDateString();
+                document.querySelector('.tel').innerHTML = data.tel;
+                document.querySelector('.height').innerHTML = data.height;
+                document.querySelector('.weight').innerHTML = data.weight;
+                document.querySelector('.deptno').innerHTML = data.deptno;
+                document.querySelector('.profno').innerHTML = data.profno;
+
+                document.querySelector('.btn-edit').setAttribute('href', 'edit.html?id=' + data.id);
+
+                const btnDelete = document.querySelector('.btn-delete');
+                btnDelete.dataset.id = data.id;
+                btnDelete.dataset.name = data.name;
+            }
+        })();
+
+        /* 삭제 버튼에 대한 클릭 이벤트 */
+        document.querySelector('.btn-delete').addEventListener('click', (e) => {
+            e.preventDefault();
+
+            const current = e.currentTarget;
+            const id = current.dataset.id;
+            const name = current.dataset.name;
+
+            if(!confirm(`정말 ${name}(을)를 삭제하시겠습니까?`)){
+                return;
+            }
+
+            let json = null;
+
+            try{
+                json = axios.delete(`http://localhost:3000/student/${id}`);
+            }catch (e) {
+                console.error(e);
+                alert('요청을 처리하는데 실패했습니다.');
+                return;
+            }
+
+            if(json != null){
+                window.location = 'index.html';
+            }
+        });
+    </script>
+</body>
+</html>

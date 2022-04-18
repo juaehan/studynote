@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="console"></h1>
+    <a href="06-querystring.html?weekday=mon&a=1&b=2">링크1</a>
+    <a href="06-querystring.html?weekday=sun">링크2</a>
+    <hr />
+    <a href="07-history.html">7번 예제로 이동</a>
+
+    <script>
+        console.log(location.search);   // ?weekday=mon&a=1&b=2
+
+        const query = location.search.substring(1);
+        console.log(query);     // weekday=mon&a=1&b=2
+
+        const params = query.split("&");
+        console.log(params);    // ['weekday=mon', 'a=1', 'b=2']
+
+        const mydata = {};
+        params.map((v, i) => {
+            // 이름=값 --> tmp[0]는 이름, tmp[1]은 값
+            const tmp = v.split("=")
+
+            mydata[tmp[0]] = tmp[1];
+        });
+
+        console.log(mydata);    // {weekday: 'mon', a: '1', b: '2'}
+
+        let msg = "";
+        switch(mydata.weekday){
+            case "mon":
+                msg = "월요일입니다.";
+                break;
+            case "sun":
+                msg = "일요일입니다.";
+                break;
+        }
+
+        document.querySelector("#console").innerHTML = msg;
+    </script>
+</body>
+</html>

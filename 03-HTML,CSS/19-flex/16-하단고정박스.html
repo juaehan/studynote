@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body{
+            padding:0;
+            margin:0;
+            height:100%;
+        }
+        .map_wrap{
+            display:flex;
+            flex-direction: column;
+            height:100%;
+        }
+        .footer{
+            background-color:#06f;
+            height:100px;
+            text-align: center;
+            margin-top:auto;
+            /* 원래는 적용할 수 없는 속성이지만, 부모에게 display:flex;
+            flex-direction: column; 이 적용된 경우에는 가능함 */
+
+            /*
+                박스가 왼쪽에 붙으면 margin-right:auto
+                박스가 오른쪽에 붙으면 margin-left:auto
+                박스가 중앙에 붙으면 margin:0 auto
+                (--> margin은 상/하로 적용이 안됨)
+            */
+        }
+    </style>
+</head>
+<body>
+    <div class="map_wrap">
+        <footer class="footer">
+            <h1>하단 고정 박스</h1>
+        </footer>
+    </div>
+</body>
+</html>

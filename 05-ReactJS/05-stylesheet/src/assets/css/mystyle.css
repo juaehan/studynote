@@ -1,0 +1,10 @@
+/** CSS 파일에서의 이미지 참조는 CSS파일을 기준으로 한 상대경로 */
+
+/* 클래스 이름 작성시 '스네이크' 이용 */
+.my-css-box{
+    background-image:url(../img/ryan.gif);
+    width:300px;
+    height:300px;
+    background-size:cover;
+    border:5px solid #eee;
+}

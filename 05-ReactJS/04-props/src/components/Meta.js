@@ -20,8 +20,9 @@ const Meta = (props) => {
             <meta property='og:image' content={props.image} />
             <meta property='og:url' content={props.url} />
 
-            <link rel="shortcut icon" href={props.image} type="image/>png" />
-            <link rel="icon" href={props.image} type="image/>png" />
+            <link rel='icon' href={props.image} type='image/png' />
+            <link rel="shortcut icon" href={props.image} type="image/png" />
+            <link rel="apple-touch-icon" href={props.image} type="image/png" />
 
             {/* 추가적으로 적용해야할 외부 js나 css로 여기서 명시할 수 있다. */}
 

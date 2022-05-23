@@ -145,4 +145,13 @@ class RegexHelper {
         return this.field(selector, msg, /^01(?:0|1|[6-9])(?:\d{3}|\d{4})\d{4}$/);
     }
 
+    /**
+     * 한글 형식인지 검사하기 위해 field()를 간접적으로 호출한다.
+     * @param   {string} selector   검사할 대상의 CSS 선택자
+     * @param   {string} msg        표시할 메시지
+     */
+     kor(selector, msg){
+        return this.field(selector, msg, /^[ㄱ-ㅎ가-힣]*$/);
+    }
+
 }

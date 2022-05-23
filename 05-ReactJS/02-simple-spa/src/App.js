@@ -22,11 +22,16 @@ const App = () => {
           <nav>
             <Link to="/">[Home]</Link>
             <Link to="/about">[About]</Link>
+
+
+            {/* 서브라우팅 */}
             <Link to="/main">[Main(SubRoute)]</Link>
+
 
             {/* HTTP GET 파라미터를 포함하는 링크 구성 */}
             <Link to="/department_get?id=101&msg=hello">[컴퓨터공학과]</Link>
             <Link to="/department_get?id=102&msg=world">[멀티미디어학과]</Link>
+
 
             {/* PATH 파라미터를 포함하는 링크 구성 */}
             <Link to="/department_path/201/hello">[전자공학과]</Link>
@@ -47,9 +52,6 @@ const App = () => {
             {/* 첫 페이지로 사용되는 컴포넌트 path에 "/"를 권장 */}
             <Route path="/" element={<Home/>} exact={true} />
             <Route path="/about" element={<About/>} />
-
-
-
 
             {/* 서브라우팅 사용 */}
             {/* '/*'은 main/의 하위에 있는 모든 파일이라는 의미 */}

@@ -1,12 +1,11 @@
-import React from "react";
+import React from 'react';
 import myschool from '../myschool';
 
-const Department = () => { 
+const Department = () => {
     const {department} = myschool;
-
     return (
         <div>
-            <table border='1'>
+            <table border="1">
                 <thead>
                     <tr>
                         <th>학과번호</th>
@@ -15,9 +14,9 @@ const Department = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {department.map( (v, i) => {
-                        return (
-                            <tr>
+                    {department.map((v, i) => {
+                        return(
+                            <tr key={i}>
                                 <td>{v.id}</td>
                                 <td>{v.dname}</td>
                                 <td>{v.loc}</td>
@@ -28,7 +27,6 @@ const Department = () => {
             </table>
         </div>
     );
-
 };
 
 export default Department;

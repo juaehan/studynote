@@ -1,13 +1,12 @@
 import React from 'react';
-
 import myschool from '../myschool';
 
 const Professor = () => {
     const {professor} = myschool;
 
-    return(
+    return (
         <div>
-            <table border='1'>
+            <table border="1">
                 <thead>
                     <tr>
                         <th>교수번호</th>
@@ -21,9 +20,9 @@ const Professor = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {professor.map((v,i) => {
+                    {professor.map((v, i) => {
                         return(
-                            <tr>
+                            <tr key={i}>
                                 <td>{v.id}</td>
                                 <td>{v.name}</td>
                                 <td>{v.userid}</td>
@@ -40,4 +39,5 @@ const Professor = () => {
         </div>
     );
 };
+
 export default Professor;

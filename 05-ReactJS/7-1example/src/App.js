@@ -1,33 +1,26 @@
 import React from 'react';
+import {Link, Routes, Route} from 'react-router-dom';
+import PrintStar from './PrintStar';
+import Calc from './Calc';
 
 const App = () => {
-  const [rownum, setRowNum] = React.useState(0);
-  const result = React.useRef();
-
-  const changeRowNum = e => {
-    setRowNum(e.currentTarget.value);
-  }
-
-  React.useEffect(() => {
-    result.current.innerHTML = '';
-    for(let i=0; i<rownum; i++){
-      for(let j=0; j<i+1; j++){
-        result.current.innerHTML += '*';
-      }
-      result.current.innerHTML += '<br />';
-    }
-  },[rownum]);
-  
-  return(
+  return (
     <div>
-      <h1>Exam07</h1>
-      <p>useState, useEffect, useRef를 사용한 별찍기 구현</p>
+      <h1>연습문제 07</h1>
+
+      <nav>
+        <Link to="/printstar">PrintStar</Link>&nbsp; | &nbsp;
+        <Link to="/calc">Calc</Link>
+      </nav>
+
       <hr />
-        <label htmlFor="rownum">rownum: </label>
-        <input id="rownum" type="text" onChange={changeRowNum}/>
-      <hr />
-      <div ref={result}></div>
+
+      <Routes>
+        <Route path="/printstar" element={<PrintStar />} />
+        <Route path="/calc" element={<Calc />} />
+      </Routes>
     </div>
   );
-}
+};
+
 export default App;

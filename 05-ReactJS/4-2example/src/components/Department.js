@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 import DepartmentItem from '../DepartmentItem';
 import mystyle from '../assets/css/style.module.css';
 
 const Department = (props) => {
-
-    return(
-        <table className={mystyle.tableStyle}>
+  return (
+    <div>
+      <table border="1" className={mystyle.tableStyle}>
         <thead className={mystyle.theadStyle}>
           <tr>
             <th>학과번호</th>
@@ -14,19 +14,20 @@ const Department = (props) => {
           </tr>
         </thead>
         <tbody>
-        {props.name.map((v, i) => {
+          {props.name.map((v, i) => {
             return(
-                <DepartmentItem
-                    key = {i}
-                    id =  {v.id}
-                    dname = {v.dname}
-                    loc = {v.loc}/>
+              <DepartmentItem 
+                  key={i}
+                  id={v.id}
+                  dname={v.dname}
+                  loc={v.loc}
+              />
             );
-        })}
+          })}
         </tbody>
       </table>
+    </div>
+  );
+};
 
-        
-    );
-}
 export default Department;

@@ -1,0 +1,241 @@
+.container{
+    width: 100%;
+    height:100%;
+    background-color:rgb(238, 238, 238);
+}
+
+.header{
+    width:768px;
+    height: 100%;
+    margin:0 auto;
+    padding: 70px 0;
+}
+.header h1{
+    width:240px;
+    height:48px;
+    background:url(../img/pc_sp_login_190522.png) no-repeat 0 0;
+    margin:0 auto;
+    text-indent: -999999px;
+    overflow: hidden;
+}
+
+.footer{
+    width:768px;
+    height:100%;
+    margin:0 auto;
+    padding-top:30px;
+}
+.footer div{
+    width:100%;
+    text-align: center;
+    padding:5px 0;
+    font-size:12px;
+}
+.footer div span strong{font-weight: bold;}
+.footer div:nth-child(1) span::after{
+    content: '|';
+    padding: 0 5px;
+    margin-left:5px;
+}
+.footer div:nth-child(1) span:nth-child(4)::after{
+    content:'';
+    padding: 0 0px;
+    margin-left:0px;
+}
+.footer div:nth-child(2){padding-bottom: 15px;}
+.footer div:nth-child(2) a{
+    display:inline-block;
+    width:60px;
+    height:12px;
+    background:url(../img/pc_sp_login_190522.png) 218px 0;
+}
+
+.content{
+    width:768px;
+    height:100%;
+    margin:0 auto;
+}
+.content form{width:460px; height:935px; margin:0 auto;}
+.content form #form-group{
+    width:100%;
+    height:70px;
+    margin-bottom:30px;
+}
+.content form #form-group .title{
+    font-size:15px;
+    font-weight:bold;
+    margin-bottom:5px;
+    display:block;
+}
+.content form #form-group .wrap{
+    width: 100%;
+    height:40px;
+    border:1px solid #d5d5d5;
+    background-color:white;
+    position:relative;
+}
+
+.content form #form-group .wrap #user_id{
+    margin:11px 70px 11px 20px;
+    width:300px;
+    border:none;
+    background:transparent;
+}
+.content form #form-group .wrap .url{
+    color:gray;
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+
+.content form #form-group .wrap #user_pwd{
+    margin:11px 70px 11px 20px;
+    width:300px;
+    border:none;
+    background:transparent;
+}
+.content form #form-group .wrap .img{
+    background:url(../img/m_icon_pw_step.png);
+    width:24px;
+    height:24px;
+    position:absolute;
+    top:8px;
+    right:10px;
+    background-size:125px 75px;
+}
+
+.content form #form-group .wrap #pwd2{
+    margin:11px 70px 11px 20px;
+    width:300px;
+    border:none;
+    background:transparent;
+}
+.content form #form-group .wrap .img2{
+    background:url(../img/m_icon_pw_step.png) -27px 0;
+    width:24px;
+    height:24px;
+    position:absolute;
+    top:8px;
+    right:10px;
+    background-size:125px 75px;
+}
+
+
+
+.content form #form-group .wrap #name{
+    margin:11px 70px 11px 20px;
+    width:300px;
+    border:none;
+    background:transparent;
+}
+
+
+.content form #form-group .year_wrap,
+.content form #form-group .month_wrap,
+.content form #form-group .day_wrap{
+    width:148px;
+    height:40px;
+    float:left;
+    background:white;
+    border:1px solid #d5d5d5;
+}
+.content form #form-group .month_wrap{margin:0 5px;}
+
+.content form #form-group .year_wrap #year,
+.content form #form-group .month_wrap #month,
+.content form #form-group .day_wrap #day{
+    margin:11px 70px 11px 20px;
+    width:119px;
+    border:none;
+    background:transparent;
+}
+
+
+.content form #form-group .wrap #gender{
+    margin:11px 70px 11px 20px;
+    width:430px;
+    border:none;
+    background:transparent;
+}
+
+
+.content form #form-group .title span{
+    font-size:12px;
+    font-weight:normal;
+    color:gray;
+}
+.content form #form-group .wrap #email2{
+    margin:11px 70px 11px 20px;
+    width:430px;
+    border:none;
+    background:transparent;
+}
+
+
+.content form #form-group .no_wrap{
+    width:100%;
+    height:40px;
+    background:white;
+    border:1px solid #d5d5d5;
+    margin-bottom:10px;
+}
+.content form #form-group .no_wrap #no{
+    margin:11px 20px 11px 20px;
+    width:430px;
+    border:none;
+    background:transparent;
+}
+.content form #form-group .section{
+    width:100%;
+    height:40px;
+    margin-bottom:10px;
+}
+.content form #form-group .phone_wrap{
+    width:300px;
+    height:40px;
+    float:left;
+    background:white;
+    border:1px solid #d5d5d5;
+    margin-right:10px;
+}
+.content form #form-group .phone_wrap #phone{
+    margin:11px 20px 11px 20px;
+    width:259px;
+    border:none;
+    background:transparent;
+}
+.content form #form-group .phone_btn{
+    width:148px;
+    height:40px;
+    background-color:#00C43B;
+    border:none;
+    color:white;
+    cursor:pointer;
+}  
+.clear{
+    display:block;
+    float:none;
+    content:'';
+}
+.content form #form-group .num_wrap{
+    width:100%;
+    height:40px;
+    background:transparent;
+    border:1px solid #d5d5d5;
+    margin-bottom:50px;
+}
+.content form #form-group .num_wrap #num{
+    margin:11px 20px 11px 20px;
+    width:259px;
+    border:none;
+    background:transparent;
+}
+.content form .btn_join{
+    width:100%;
+    height:50px;
+    margin-top:72px;
+    background:#00C43B;
+    border:none;
+    color:white;
+    font-size:20px;
+}

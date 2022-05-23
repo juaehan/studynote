@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 /** 스타일 */
 const ListItem = styled.li`
@@ -92,7 +92,7 @@ const NewsItem = ({
 
   return (
     <ListItem>
-      <a className="list-item-link" href={url} target="_black" rel="noreferrer">
+      <a className="list-item-link" href={url} target="_blank" rel="noreferrer">
         <img className="thumbnail" src={image} alt={title} />
         <div className="content">
           <h3>{title}</h3>

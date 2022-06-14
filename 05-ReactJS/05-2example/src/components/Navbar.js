@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
+import mq from '../MediaQuery';
 
 const NavbarContainer = styled.nav`
     overflow: hidden;
@@ -23,6 +24,10 @@ const NavbarContainer = styled.nav`
             padding: 14px 20px;
             text-decoration: none;
 
+            ${mq.maxWidth('sm')`
+                font-size:14px;
+            `}
+            
             &:hover {
                 background-color: #ddd;
                 color: black;

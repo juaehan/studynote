@@ -10,6 +10,6 @@ root.render(
   <React.StrictMode>
     <Meta />
     <GlobalStyles />
-    <BrowserRouter><App /></BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}><App /></BrowserRouter>
   </React.StrictMode>
 );

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import mq from '../MediaQuery';
 
 const HeaderContainer = styled.header`
     .jumbotron {
@@ -11,6 +12,13 @@ const HeaderContainer = styled.header`
         h1 {
             font-size: 40px;
         }
+
+        ${mq.maxWidth('sm')`
+            padding: 30px;
+            h1{
+                font-size:30px;
+            }
+        `}
     }
 `;
 

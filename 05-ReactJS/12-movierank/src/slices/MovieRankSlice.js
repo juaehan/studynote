@@ -56,7 +56,7 @@ const MovieRansSlice = createSlice({
                 data: payload?.data,
                 loading: false,
                 error: {
-                    code: payload.status ? payload.status : 500,
+                    code: payload?.status ? payload.status : 500,
                     message: payload?.statusText ? payload.statusText : 'Server Error'
                 }
             }

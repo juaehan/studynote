@@ -1,10 +1,10 @@
 import React from 'react';
 import Spinner from '../components/Spinner';
-import NewsItem from '../components/NewsItem';
+import NewsItem from '../components/NewsItem'
 import styled from 'styled-components';
 
 import {useSelector, useDispatch} from 'react-redux';
-import {getList} from '../slices/NewsSlice';
+import {getNewsList} from '../slices/NewsSlice';
 
 const ListContainer = styled.ul`
     list-style:none;
@@ -16,7 +16,6 @@ const ListContainer = styled.ul`
     flex-direction:column;
     margin-bottom:30px;
 `;
-
 const News = () => {
     React.useEffect(() => console.clear(), []);
 
@@ -24,7 +23,7 @@ const News = () => {
     const dispatch = useDispatch();
 
     React.useEffect(() => {
-        dispatch(getList());
+        dispatch(getNewsList());
     }, [dispatch]);
 
     return (

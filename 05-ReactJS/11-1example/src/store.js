@@ -3,7 +3,7 @@ import NewsSlice from './slices/NewsSlice';
 
 const store = configureStore({
     reducer: {
-        news: NewsSlice
+        news : NewsSlice
     },
     middleware: (getDefaultMiddleware) => getDefaultMiddleware({serializableCheck: false}),
     devTools: true

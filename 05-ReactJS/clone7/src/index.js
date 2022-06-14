@@ -24,7 +24,7 @@ root.render(
   <React.StrictMode>
     <GlobalStyles />
     <Meta />
-    <BrowserRouter><App /></BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}><App /></BrowserRouter>
   </React.StrictMode>
 );
 

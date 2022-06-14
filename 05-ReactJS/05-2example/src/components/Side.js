@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import mq from '../MediaQuery';
 import FakeImg from './FakeImg';
 
 const SideContainer = styled.div`
@@ -10,6 +10,10 @@ const SideContainer = styled.div`
     border-right: 1px solid #d5d5d5;
     background-color: #eeeeee;
     padding: 20px;
+
+    ${mq.maxWidth('sm')`
+        width:100%;
+    `}
 `;
 
 const Side = () => {

@@ -1,4 +1,4 @@
-import {configureStore, getDefaultMiddleware} from '@reduxjs/toolkit';
+import {configureStore} from '@reduxjs/toolkit';
 import {createLogger} from 'redux-logger';
 
 import CounterSlice from './slices/CounterSlice';
@@ -13,7 +13,7 @@ const store = configureStore({
         department : DepartmentSlice
     },
     // 미들웨어(굳이 사용하지 않아도 됨)
-    middleware: [...getDefaultMiddleware({serializableCheck: false}), logger],
+    middleware: (getDefaultMiddleware) => getDefaultMiddleware({serializableCheck: false}).concat(logger),
     // redux-devtools-extension을 사용하지 않을 경우 false 혹은 이 라인 명시 안함
     devTools: true
 });

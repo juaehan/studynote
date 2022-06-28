@@ -1,44 +1,39 @@
-# ES6
-1. `yarn init`을 터미널에 입력한다.
-2. `package.json`파일에 `"type" : "module"`을 추가해주면 ES6로 손쉽게 바꿀 수 있다.
-
+# ES5
+노드는 ES5를 기준으로 작성된다.
 
 ### 01. 사용자 정의 함수
-- 한 개의 기능을 보낼 때 `export default`를 사용한다.
 ```js
-/** 모듈 내보내기 (MyModule1)*/
+/** 모듈 내보내기 (MyModule1) */
 function helloWorld(){
     console.log("Hello World");
 }
-export default helloWorld;
 
-/** 모듈 참조*/
-import my1 from './MyModule1.js';
-my1();          // Hello World
+module.exports = helloWorld;
+
+/** 모듈 참조 */
+const my1 = require('./MyModule1');
+my1();      // --> Hello World
 ```
 
-
 ### 02. exports 속성으로 변수, JSON, 함수 추가
-- 여러개의 기능을 내보낼 경우 `default`를 적용하지 않고, `{}`로 묶는다.
 ```js
-/** 모듈 내보내기 (MyModule2)*/
-const name = "노드";
-const property = {id: 'nodejs', type: 'javascript'};
-const say = function(){
+/** 모듈 내보내기 (MyModule2) */
+module.exports.name = "노드";
+module.exports.property = {id: 'nodejs', type: 'javascript'};
+module.exports.say = function(){
     console.log("Hello World");
 };
 
-const home = {
+module.exports.home = {
     postcode: '12345',
     address: '서울시 강남구 역삼동',
     getAddress: function(){
         console.log(this.postcode + ' ' + this.address);
     }
 };
-export {name, property, say, home};
 
-/** 모듈 참조*/
-import {name, property, say, home} from './MyModule2.js';
+/** 모듈 참조 */
+const my2 = require('./MyModule2');
 
 console.log(my2.name);                  // 노드
 console.log(my2.property.id);           // nodejs
@@ -52,25 +47,27 @@ my2.home.getAddress();                  // 12345 서울시 강남구 역삼동
 
 ### 03. class 모듈화 하기
 ```js
-/** 모듈 내보내기 (MyModule1)*/
+/** 모듈 내보내기 (MyModule3) */
 class MyClass{
     constructor(){
-        console.log("---- MyClass의 객체가 생성되었습니다. ----");
+        console.log('--- MyClass의 객체가 생성되었습니다. ---');
         this.age = 20;
-        this.name = "노드";
+        this.name = '노드';
     }
 
     say(){
-        console.log("이름: " + this.name);
-        console.log("나이: " + this.age);
+        console.log('이름: ' + this.name);
+        console.log('나이: ' + this.age);
     }
 }
 
-export default MyClass;
+module.exports = MyClass;
 
-/** 모듈 참조*/
-import my3 from './MyModule3.js';
+/** 모듈 참조 */
+const my3 = require('./MyModule3');
 
+// 리턴된 모듈은 클래스 형태이므로,
+// 기능의 사용을 위해서는 인스턴스를 생성해야 한다.
 const module_obj = new my3();
 module_obj.say();
 /*
@@ -80,24 +77,22 @@ module_obj.say();
 */
 ```
 
+
 ### 04. 객체 모듈화 --> 가장 일반적인 방법
-- 한 개의 기능을 보낼 때 `export default`를 사용한다.
 ```js
-/** 모듈 내보내기 (MyModule1)*/
+/** 모듈 내보내기 (MyModule4) */
 class HelloWorld {
     constructor(){
         console.log("---- HelloWorld의 객체가 생성되었습니다. ----");
     }
-
     say(){
         console.log("Hello World");
     }
 }
+module.exports = new HelloWorld();
 
-export default new HelloWorld();
-
-/** 모듈 참조*/
-import my4 from './MyModule4.js';
+/** 모듈 참조 */
+const my4 = require('./MyModule4');
 
 // 리턴된 모듈은 객체 형태이므로,
 // 직접 모듈 내의 기능을 호출할 수 있다.

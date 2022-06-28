@@ -13,14 +13,14 @@ my1();
 
 const my2 = require('./MyModule2');
 
-console.log(my2.name);
-console.log(my2.property.id);
-console.log(my2.property.type);
-my2.say();
+console.log(my2.name);                  // 노드
+console.log(my2.property.id);           // nodejs
+console.log(my2.property.type);         // javascript
+my2.say();                              // Hello World
 
-console.log(my2.home.postcode);
-console.log(my2.home.address);
-my2.home.getAddress();
+console.log(my2.home.postcode);         // 12345
+console.log(my2.home.address);          // 서울시 강남구 역삼동
+my2.home.getAddress();                  // 12345 서울시 강남구 역삼동
 
 // --------------------------------------
 

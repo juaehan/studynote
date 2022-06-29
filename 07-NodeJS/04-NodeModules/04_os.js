@@ -27,6 +27,7 @@ console.group('메모리 용량');
     console.debug('시스템의 메모리 : %d(free) / %d(tatal)', os.freemem(), os.totalmem());
 console.groupEnd();
 
+
 /** (5) CPU 정보 */
 // 쿼드코어인 경우 4개, 듀얼코어인 경우 두개
 const cpus = os.cpus();
@@ -43,6 +44,7 @@ console.group('메모리 용량');
 
     console.debug();
 console.groupEnd();
+
 
 /** (6) 네트워크 정보 */
 const nets = os.networkInterfaces();

@@ -32,10 +32,11 @@ console.log('url4:', url4);
 
 const url5 = urlFormat({
     protocol: 'https',
-    hostname: 'john:abc@example.com',
+    hostname: 'example.com',
     pathname: '/somepath',
     port: 8080,
-    
+    username: 'john',
+    password:'abc',
     search: 'item=bike'
 })
-console.log('url5:', url5);
+console.log('url5:', url5);     // https://john:abc@example.com:8080/somepath?item=bike

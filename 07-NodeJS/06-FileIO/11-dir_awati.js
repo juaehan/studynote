@@ -8,7 +8,7 @@ var target = './docs/docs/docs';
 if(!fs.existsSync(target)){
     (async () => {
         try{
-            await fs.promises.rmdir(target);
+            await fs.promises.mkdir(target);
             await fs.promises.chmod(target, '0777');
             console.debug('디렉토리 생성 완료');
         }catch(e){
@@ -21,7 +21,7 @@ if(!fs.existsSync(target)){
 }else{
     (async () => {
         try{
-            await fs.promises.mkdir(target);
+            await fs.promises.rmdir(target);
             console.debug('디렉토리 삭제 완료');
         }catch(e){
             console.error('디렉토리 삭제 에러');

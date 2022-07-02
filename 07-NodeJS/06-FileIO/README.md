@@ -350,3 +350,184 @@ if(fs.existsSync(target)){
     ./output_await.txt파일이 존재하지 않습니다.
 */
 ```
+
+---
+---
+
+<br />
+
+### 9. 폴더 생성(동기식)
+```js
+import fs from 'fs';
+
+/* 생성할 폴더 */
+var target = './docs';
+
+if(!fs.existsSync(target)){
+    console.log(target + '경로가 존재하지 않기 때문에 생성합니다.');
+    fs.mkdirSync(target);
+
+    fs.chmodSync(target, '0755');
+    console.log(target + '(이)가 생성되었습니다.');
+} else {
+    console.log(target + '경로가 존재하므로 삭제합니다.');
+    fs.rmdirSync(target);
+
+    console.log(target + '(이)가 삭제되었습니다.');
+}
+
+/*
+    ./docs경로가 존재하지 않기 때문에 생성합니다.
+    ./docs(이)가 생성되었습니다.
+    -----------------------------------------
+    ./docs경로가 존재하므로 삭제합니다.
+    ./docs(이)가 삭제되었습니다.
+*/
+```
+![이미지](4.png)
+
+---
+
+<br />
+
+### 10. 폴더 생성(비동기식 - 콜백함수)
+```js
+import fs from 'fs';
+
+var target = './doc';
+
+if(!fs.existsSync(target)){
+    fs.mkdir(target, function(err){
+        if(err){
+            console.error(err);
+            return;
+        }
+        fs.chmodSync(target, '0777');
+        console.log('새로운 %s 폴더를 만들었습니다.', target);
+    });
+
+    console.log('%s 폴더의 생성을 요청했습니다.', target);
+} else {
+    fs.rmdir(target, function(err){
+        if(err){
+            return console.log(err);
+        }
+        console.log('%s 폴더를 삭제했습니다.', target);
+    });
+    console.log('%s 폴더의 삭제를 요청했습니다.', target);
+}
+```
+> 만약 생성한 폴더 내부에 파일이 있다면 삭제하지 못한다.<br />
+> 삭제하려면 반복문으로 하나씩 지워야지 가능하다.
+
+---
+
+### 11. 폴더 생성(비동기식 - async~await)
+```js
+import fs from 'fs';
+
+// 중간 폴더가 존재하지 않을 경우 에러가 남.
+// 이렇게 만들고 싶으면 /를 기준으로 쪼개서 반복문으로 만들어야 한다.
+var target = './docs/docs/docs';
+
+if(!fs.existsSync(target)){
+    (async() => {
+        try{
+            await fs.promises.mkdir(target);
+            await fs.promises.chmod(target, '0777');
+            console.debug('디렉토리 생성 완료');
+        } catch (e) {
+            console.error('디렉토리 생성 에러');
+            console.error(e);
+        }
+    })();
+
+    console.log('%s 폴더의 생성을 요청했습니다.', target);
+} else {
+    (async() => {
+        try{
+            await fs.promises.rmdir(target);
+            console.debug('디렉토리 삭제 완료');
+        } catch (e) {
+            console.error('디렉토리 삭제 에러');
+            console.error(e);
+        }
+    })();
+
+    console.log('%s 폴더의 삭제를 요청했습니다.', target);
+}
+```
+---
+
+### 12. 폴더 생성(FileHelper.js)
+```js
+import fs from 'fs';
+import {join} from 'path';
+
+const mkdirs = (target, permission='0755') => {
+    /* 경로가 없다면 수행하지 않는다. */
+    if (target == undefined || target == null) {return;}
+
+    /* 윈도우의 경우 '\'를 '/'로 변환한다. */
+    target = target.replace(/\\/gi, "/");
+    // --> node.js 17버전 이상
+    // target = target.replaceAll("\\", "/");
+
+    /* 주어진 경로값을 '/' 단위로 자른다. */
+    const target_list = target.split('/');
+    // mac : _ a b c => " , a, b, c"
+    // win : c: a b c => "c:, a, b, c"
+
+    /* 한 단계씩 생성되는 폴더 깊이를 누적할 변수 */
+    let dir = '';
+
+    /* 주어진 경로가 절대경로 형식 : 누적할 변수를 '/'부터 시작 */
+    if(target.substring(0, 1) == "/"){
+        dir = "/";
+    }
+
+    /* 윈도우의 경우 하드디스크 문자열을 구분하기 위해 ':'이 포함되어 있다. */
+    if(target_list[0].indexOf(":") > -1){
+        target_list[0] += "/";
+    }
+
+
+    /* 잘라낸 배열만큼 순환하면서 디렉토리 생성 */
+    target_list.map((v, i) => {
+        dir = join(dir, v);
+
+        // 현재 폴더를 의미하면 턴 중단
+        if(v == "."){
+            return;
+        }
+
+        if(!fs.existSync(dir)){
+            fs.mkdirSync(dir);
+            fs.chmodSync(dir, permisstion);
+        }
+    });
+}
+export {mkdirs}
+```
+```js
+import {mkdirs} from './helper/FileHelper.js';
+import path from 'path';
+
+/* 상대경로 방식으로 폴더 생성하기 */
+// --> VSCode가 열고 있는 프로젝트 폴더기준
+var target1 = './test/dir/make';
+
+console.log(target1);       // ./test/dir/make
+mkdirs(target1);
+
+
+/*절대경로 방식으로 폴더 생성하기*/
+// __dirname : VSCode가 열고 있는 프로젝트 폴더
+const __dirname = path.resolve();
+console.log(__dirname);     // C:\Users\juae\Desktop\studynote\07-NodeJS\06-FileIO
+
+var target2 = path.join(__dirname, 'hello/node/js');
+console.log(target2);       // C:\Users\juae\Desktop\studynote\07-NodeJS\06-FileIO\hello\node\js
+mkdirs(target2);
+```
+![이미지](5.png)

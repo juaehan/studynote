@@ -1,0 +1,1298 @@
+22/07/05 11:20:07 649 [debug]: --------------------------------------------------
+22/07/05 11:20:07 655 [debug]: |              Start Express Server              |
+22/07/05 11:20:07 656 [debug]: --------------------------------------------------
+22/07/05 11:20:07 658 [debug]: server address => http://192.168.199.1:3001
+22/07/05 11:20:07 660 [debug]: server address => http://192.168.233.1:3001
+22/07/05 11:20:07 661 [debug]: server address => http://192.168.1.82:3001
+22/07/05 11:20:07 662 [debug]: --------------------------------------------------
+22/07/05 11:20:13 415 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:20:13 417 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 11:20:13 424 [debug]: [GET] http://localhost:3001/page1
+22/07/05 11:20:13 457 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 40ms
+22/07/05 11:20:13 459 [debug]: ---------------------------------------------
+22/07/05 11:20:41 912 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:20:41 914 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 11:20:41 915 [debug]: [GET] http://localhost:3001/page2
+22/07/05 11:20:41 921 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/05 11:20:41 922 [debug]: ---------------------------------------------
+22/07/05 11:21:03 568 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:21:03 569 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 11:21:03 570 [debug]: [GET] http://localhost:3001/page3
+22/07/05 11:21:03 578 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/05 11:21:03 579 [debug]: ---------------------------------------------
+22/07/05 11:21:46 228 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:21:46 231 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 11:21:46 232 [debug]: [GET] http://localhost:3001/send_get
+22/07/05 11:21:46 239 [debug]: [프론트엔드로부터 전달받은 GET 파라미터
+22/07/05 11:21:46 241 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/07/05 11:21:46 241 [debug]: ---------------------------------------------
+22/07/05 11:22:22 551 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:22:22 552 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 11:22:22 553 [debug]: [GET] http://localhost:3001/send_get?answer=300&name=student&age=20
+22/07/05 11:22:22 556 [debug]: [프론트엔드로부터 전달받은 GET 파라미터
+22/07/05 11:22:22 557 [debug]: 	 >> answer=300
+22/07/05 11:22:22 558 [debug]: 	 >> name=student
+22/07/05 11:22:22 560 [debug]: 	 >> age=20
+22/07/05 11:22:22 565 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/07/05 11:22:22 566 [debug]: ---------------------------------------------
+22/07/05 11:22:54 310 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:22:54 311 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 11:22:54 312 [debug]: [GET] http://localhost:3001/send_url/helloworld/19
+22/07/05 11:22:54 317 [debug]: [프론트엔드로부터 전달받은 URL 파라미터]
+22/07/05 11:22:54 318 [debug]: 	 >> username=helloworld
+22/07/05 11:22:54 318 [debug]: 	 >> age=19
+22/07/05 11:22:54 321 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/07/05 11:22:54 322 [debug]: ---------------------------------------------
+22/07/05 11:24:55 621 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:24:55 622 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 11:24:55 623 [debug]: [GET] http://localhost:3001/session
+22/07/05 11:24:55 627 [debug]: [session] cookie=[object Object]
+22/07/05 11:24:55 630 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/05 11:24:55 631 [debug]: ---------------------------------------------
+22/07/05 11:25:07 271 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:25:07 272 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 11:25:07 277 [debug]: [POST] http://localhost:3001/upload/single
+22/07/05 11:25:07 350 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 78ms
+22/07/05 11:25:07 353 [debug]: ---------------------------------------------
+22/07/05 11:25:09 973 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:25:09 975 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 11:25:09 977 [debug]: [POST] http://localhost:3001/upload/multiple
+22/07/05 11:25:10 085 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 110ms
+22/07/05 11:25:10 087 [debug]: ---------------------------------------------
+22/07/05 11:25:37 279 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:25:37 280 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:25:37 284 [debug]: [GET] http://192.168.199.1:3001/04_cookie.html
+22/07/05 11:25:37 312 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 32ms
+22/07/05 11:25:37 313 [debug]: ---------------------------------------------
+22/07/05 11:25:40 576 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:25:40 577 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:25:40 579 [debug]: [POST] http://192.168.199.1:3001/cookie
+22/07/05 11:25:40 629 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 52ms
+22/07/05 11:25:40 630 [debug]: ---------------------------------------------
+22/07/05 11:25:41 813 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:25:41 814 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:25:41 815 [debug]: [GET] http://192.168.199.1:3001/cookie
+22/07/05 11:25:41 819 [debug]: [cookies] my_msg=asdf
+22/07/05 11:25:41 820 [debug]: [signedCookies] my_msg_signed=asdf
+22/07/05 11:25:41 823 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/05 11:25:41 823 [debug]: ---------------------------------------------
+22/07/05 11:25:43 702 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:25:43 703 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:25:43 704 [debug]: [DELETE] http://192.168.199.1:3001/cookie
+22/07/05 11:25:43 709 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/05 11:25:43 710 [debug]: ---------------------------------------------
+22/07/05 11:25:44 964 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:25:44 964 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:25:44 966 [debug]: [POST] http://192.168.199.1:3001/cookie
+22/07/05 11:25:44 969 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/05 11:25:44 970 [debug]: ---------------------------------------------
+22/07/05 11:25:45 652 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:25:45 653 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:25:45 654 [debug]: [GET] http://192.168.199.1:3001/cookie
+22/07/05 11:25:45 656 [debug]: [cookies] my_msg=asdf
+22/07/05 11:25:45 657 [debug]: [signedCookies] my_msg_signed=asdf
+22/07/05 11:25:45 659 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/05 11:25:45 659 [debug]: ---------------------------------------------
+22/07/05 11:25:46 220 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:25:46 221 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:25:46 222 [debug]: [DELETE] http://192.168.199.1:3001/cookie
+22/07/05 11:25:46 224 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/05 11:25:46 225 [debug]: ---------------------------------------------
+22/07/05 11:25:46 773 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:25:46 774 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:25:46 775 [debug]: [GET] http://192.168.199.1:3001/cookie
+22/07/05 11:25:46 778 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 3ms
+22/07/05 11:25:46 778 [debug]: ---------------------------------------------
+22/07/05 11:26:16 582 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:26:16 584 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:26:16 587 [debug]: [GET] http://192.168.199.1:3001/05_login.html
+22/07/05 11:26:16 596 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/07/05 11:26:16 598 [debug]: ---------------------------------------------
+22/07/05 11:26:16 682 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:26:16 684 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:26:16 687 [debug]: [GET] http://192.168.199.1:3001/session/login
+22/07/05 11:26:16 693 [debug]: 현재 로그인중이 아닙니다.
+22/07/05 11:26:16 699 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/07/05 11:26:16 701 [debug]: ---------------------------------------------
+22/07/05 11:26:23 158 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:26:23 159 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:26:23 160 [debug]: [POST] http://192.168.199.1:3001/session/login
+22/07/05 11:26:23 163 [debug]: id=aksdf54
+22/07/05 11:26:23 164 [debug]: pw=asdf
+22/07/05 11:26:23 166 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/05 11:26:23 167 [debug]: ---------------------------------------------
+22/07/05 11:26:37 030 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:26:37 031 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:26:37 033 [debug]: [GET] http://192.168.199.1:3001/05_login.html
+22/07/05 11:26:37 040 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/05 11:26:37 041 [debug]: ---------------------------------------------
+22/07/05 11:26:37 183 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:26:37 184 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:26:37 185 [debug]: [GET] http://192.168.199.1:3001/session/login
+22/07/05 11:26:37 187 [debug]: 현재 로그인중이 아닙니다.
+22/07/05 11:26:37 190 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/05 11:26:37 192 [debug]: ---------------------------------------------
+22/07/05 11:28:49 000 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:28:49 001 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:28:49 002 [debug]: [POST] http://192.168.199.1:3001/session/login
+22/07/05 11:28:49 005 [debug]: id=node
+22/07/05 11:28:49 005 [debug]: pw=1234
+22/07/05 11:28:49 006 [debug]: 로그인 성공
+22/07/05 11:28:49 011 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/07/05 11:28:49 012 [debug]: ---------------------------------------------
+22/07/05 11:28:53 037 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:28:53 038 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:28:53 040 [debug]: [DELETE] http://192.168.199.1:3001/session/login
+22/07/05 11:28:53 044 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/05 11:28:53 045 [debug]: ---------------------------------------------
+22/07/05 11:29:07 381 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:29:07 381 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:29:07 383 [debug]: [GET] http://192.168.199.1:3001/06_mail.html
+22/07/05 11:29:07 389 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/05 11:29:07 390 [debug]: ---------------------------------------------
+22/07/05 11:29:24 998 [debug]: 클라이언트가 접속했습니다.
+22/07/05 11:29:24 999 [debug]: [client] ::ffff:192.168.199.1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 11:29:25 000 [debug]: [POST] http://192.168.199.1:3001/send_mail
+22/07/05 11:29:27 464 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 2465ms
+22/07/05 11:29:27 465 [debug]: ---------------------------------------------
+22/07/05 13:14:49 614 [debug]: --------------------------------------------------
+22/07/05 13:14:49 619 [debug]: |              Start Express Server              |
+22/07/05 13:14:49 620 [debug]: --------------------------------------------------
+22/07/05 13:14:49 622 [debug]: server address => http://192.168.199.1:3001
+22/07/05 13:14:49 623 [debug]: server address => http://192.168.233.1:3001
+22/07/05 13:14:49 624 [debug]: server address => http://192.168.1.82:3001
+22/07/05 13:14:49 625 [debug]: --------------------------------------------------
+22/07/05 13:16:23 490 [debug]: 클라이언트가 접속했습니다.
+22/07/05 13:16:23 493 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 13:16:23 495 [debug]: [GET] http://localhost:3001/api_test/custom_error
+22/07/05 13:16:23 510 [error]: [Error] 개발자가 직접 생성한 에러가 발생하였습니다.
+22/07/05 13:16:23 512 [error]: Error: 개발자가 직접 생성한 에러가 발생하였습니다.
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:12:23
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+    at router (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:47:12)
+22/07/05 13:16:23 530 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 38ms
+22/07/05 13:16:23 531 [debug]: ---------------------------------------------
+22/07/05 13:16:59 364 [debug]: 클라이언트가 접속했습니다.
+22/07/05 13:16:59 365 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 13:16:59 366 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 13:16:59 373 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:16:59 375 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:16:59 376 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 13:16:59 378 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:19:31)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:29
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 13:16:59 383 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 19ms
+22/07/05 13:16:59 385 [debug]: ---------------------------------------------
+22/07/05 13:17:57 040 [debug]: 클라이언트가 접속했습니다.
+22/07/05 13:17:57 041 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 13:17:57 042 [debug]: [GET] http://localhost:3001/api_test/unknown
+22/07/05 13:17:57 047 [error]: [Error] 페이지를 찾을 수 없습니다.
+22/07/05 13:17:57 047 [error]: Error: 페이지를 찾을 수 없습니다.
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/app.js:185:48
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:328:13)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:286:9
+    at param (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:365:14)
+    at param (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:421:3)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:91:12)
+    at trim_prefix (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:328:13)
+22/07/05 13:17:57 052 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/07/05 13:17:57 053 [debug]: ---------------------------------------------
+22/07/05 13:19:05 950 [debug]: 클라이언트가 접속했습니다.
+22/07/05 13:19:05 950 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 13:19:05 951 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=200
+22/07/05 13:19:05 954 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:19:05 955 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:19:05 955 [error]: [Error] num1의 값이 없습니다.
+22/07/05 13:19:05 956 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:29
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 13:19:05 961 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/07/05 13:19:05 962 [debug]: ---------------------------------------------
+22/07/05 13:19:26 641 [debug]: 클라이언트가 접속했습니다.
+22/07/05 13:19:26 642 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 13:19:26 643 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=200&num2=hello
+22/07/05 13:19:26 646 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:19:26 647 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:19:26 649 [error]: [Error] num1의 값이 없습니다.
+22/07/05 13:19:26 650 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:29
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 13:19:26 657 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/07/05 13:19:26 658 [debug]: ---------------------------------------------
+22/07/05 13:19:41 492 [debug]: 클라이언트가 접속했습니다.
+22/07/05 13:19:41 493 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 13:19:41 494 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=200&num2=hello
+22/07/05 13:19:41 497 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:19:41 498 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:19:41 499 [error]: [Error] num1의 값이 없습니다.
+22/07/05 13:19:41 500 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:29
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 13:19:41 506 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/07/05 13:19:41 507 [debug]: ---------------------------------------------
+22/07/05 13:19:45 375 [debug]: 클라이언트가 접속했습니다.
+22/07/05 13:19:45 376 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 13:19:45 377 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 13:19:45 380 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:19:45 382 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:19:45 383 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 13:19:45 384 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:19:31)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:29
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 13:19:45 389 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/07/05 13:19:45 390 [debug]: ---------------------------------------------
+22/07/05 13:20:57 220 [debug]: --------------------------------------------------
+22/07/05 13:20:57 224 [debug]: |              Start Express Server              |
+22/07/05 13:20:57 226 [debug]: --------------------------------------------------
+22/07/05 13:20:57 228 [debug]: server address => http://192.168.199.1:3001
+22/07/05 13:20:57 229 [debug]: server address => http://192.168.233.1:3001
+22/07/05 13:20:57 230 [debug]: server address => http://192.168.1.82:3001
+22/07/05 13:20:57 231 [debug]: --------------------------------------------------
+22/07/05 13:20:59 532 [debug]: 클라이언트가 접속했습니다.
+22/07/05 13:20:59 534 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 13:20:59 536 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 13:20:59 551 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:20:59 553 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:20:59 556 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 13:20:59 557 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:19:31)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:29
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 13:20:59 574 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 40ms
+22/07/05 13:20:59 575 [debug]: ---------------------------------------------
+22/07/05 13:21:00 468 [debug]: 클라이언트가 접속했습니다.
+22/07/05 13:21:00 469 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 13:21:00 470 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 13:21:00 476 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:21:00 477 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:21:00 479 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 13:21:00 480 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:19:31)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:29
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 13:21:00 486 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 17ms
+22/07/05 13:21:00 487 [debug]: ---------------------------------------------
+22/07/05 13:21:32 995 [debug]: 클라이언트가 접속했습니다.
+22/07/05 13:21:32 996 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 13:21:32 998 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=efewf
+22/07/05 13:21:33 002 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:21:33 003 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:21:33 005 [error]: [Error] num1의 값이 없습니다.
+22/07/05 13:21:33 007 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:29
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 13:21:33 014 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 18ms
+22/07/05 13:21:33 014 [debug]: ---------------------------------------------
+22/07/05 13:24:15 692 [debug]: 클라이언트가 접속했습니다.
+22/07/05 13:24:15 693 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 13:24:15 695 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=211
+22/07/05 13:24:15 698 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:24:15 699 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:24:15 700 [error]: [Error] num1의 값이 없습니다.
+22/07/05 13:24:15 702 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:29
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 13:24:15 708 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/07/05 13:24:15 708 [debug]: ---------------------------------------------
+22/07/05 13:24:33 000 [debug]: 클라이언트가 접속했습니다.
+22/07/05 13:24:33 001 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 13:24:33 001 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=211
+22/07/05 13:24:33 004 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:24:33 005 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:24:33 006 [error]: [Error] num1의 값이 없습니다.
+22/07/05 13:24:33 008 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:29
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 13:24:33 015 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/07/05 13:24:33 015 [debug]: ---------------------------------------------
+22/07/05 13:24:34 464 [debug]: 클라이언트가 접속했습니다.
+22/07/05 13:24:34 465 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 13:24:34 466 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=211
+22/07/05 13:24:34 470 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:24:34 470 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:24:34 471 [error]: [Error] num1의 값이 없습니다.
+22/07/05 13:24:34 472 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:29
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 13:24:34 479 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+22/07/05 13:24:34 480 [debug]: ---------------------------------------------
+22/07/05 13:24:35 141 [debug]: 클라이언트가 접속했습니다.
+22/07/05 13:24:35 142 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 13:24:35 143 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=211
+22/07/05 13:24:35 147 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:24:35 148 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:24:35 149 [error]: [Error] num1의 값이 없습니다.
+22/07/05 13:24:35 150 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:29
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 13:24:35 155 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/07/05 13:24:35 155 [debug]: ---------------------------------------------
+22/07/05 13:25:32 327 [debug]: --------------------------------------------------
+22/07/05 13:25:32 334 [debug]: |              Start Express Server              |
+22/07/05 13:25:32 335 [debug]: --------------------------------------------------
+22/07/05 13:25:32 336 [debug]: server address => http://192.168.199.1:3001
+22/07/05 13:25:32 337 [debug]: server address => http://192.168.233.1:3001
+22/07/05 13:25:32 338 [debug]: server address => http://192.168.1.82:3001
+22/07/05 13:25:32 339 [debug]: --------------------------------------------------
+22/07/05 13:25:38 409 [debug]: 클라이언트가 접속했습니다.
+22/07/05 13:25:38 411 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 13:25:38 413 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=211&num2=232
+22/07/05 13:25:38 429 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:25:38 432 [debug]: [HTTP %s Params] %s=%s
+22/07/05 13:25:38 436 [error]: [Error] num1의 값이 없습니다.
+22/07/05 13:25:38 438 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:29
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 13:25:38 454 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 43ms
+22/07/05 13:25:38 456 [debug]: ---------------------------------------------
+22/07/05 15:00:07 457 [debug]: --------------------------------------------------
+22/07/05 15:00:07 461 [debug]: |              Start Express Server              |
+22/07/05 15:00:07 462 [debug]: --------------------------------------------------
+22/07/05 15:00:07 463 [debug]: server address => http://192.168.199.1:3001
+22/07/05 15:00:07 465 [debug]: server address => http://192.168.233.1:3001
+22/07/05 15:00:07 466 [debug]: server address => http://192.168.1.82:3001
+22/07/05 15:00:07 467 [debug]: --------------------------------------------------
+22/07/05 15:00:11 469 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:00:11 470 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 15:00:11 473 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=211&num2=232
+22/07/05 15:00:11 488 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:00:11 494 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:00:11 496 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:00:11 498 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 15:00:11 517 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 47ms
+22/07/05 15:00:11 520 [debug]: ---------------------------------------------
+22/07/05 15:00:12 902 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:00:12 903 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 15:00:12 904 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=211&num2=232
+22/07/05 15:00:12 909 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:00:12 910 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:00:12 912 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:00:12 913 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 15:00:12 923 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 20ms
+22/07/05 15:00:12 925 [debug]: ---------------------------------------------
+22/07/05 15:01:26 656 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:01:26 657 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 15:01:26 658 [debug]: [GET] http://localhost:3001/api_test/make_result?num=211&num=232
+22/07/05 15:01:26 663 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:01:26 664 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:01:26 666 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 15:01:26 666 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:19:31)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 15:01:26 671 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+22/07/05 15:01:26 672 [debug]: ---------------------------------------------
+22/07/05 15:01:31 267 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:01:31 268 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 15:01:31 269 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=211&num=232
+22/07/05 15:01:31 272 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:01:31 273 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:01:31 274 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:01:31 275 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 15:01:31 279 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/07/05 15:01:31 281 [debug]: ---------------------------------------------
+22/07/05 15:02:22 855 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:02:22 856 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 15:02:22 856 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 15:02:22 860 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:02:22 861 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:02:22 862 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 15:02:22 863 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:19:31)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 15:02:22 868 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/05 15:02:22 869 [debug]: ---------------------------------------------
+22/07/05 15:02:58 725 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:02:58 727 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 15:02:58 729 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=211
+22/07/05 15:02:58 739 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:02:58 740 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:02:58 741 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:02:58 742 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 15:02:58 747 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 20ms
+22/07/05 15:02:58 749 [debug]: ---------------------------------------------
+22/07/05 15:07:02 456 [debug]: --------------------------------------------------
+22/07/05 15:07:02 460 [debug]: |              Start Express Server              |
+22/07/05 15:07:02 462 [debug]: --------------------------------------------------
+22/07/05 15:07:02 464 [debug]: server address => http://192.168.199.1:3001
+22/07/05 15:07:02 465 [debug]: server address => http://192.168.233.1:3001
+22/07/05 15:07:02 466 [debug]: server address => http://192.168.1.82:3001
+22/07/05 15:07:02 467 [debug]: --------------------------------------------------
+22/07/05 15:07:06 961 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:07:06 964 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 15:07:06 967 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=211
+22/07/05 15:07:06 983 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:07:06 985 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:07:06 986 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:07:06 987 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 15:07:07 015 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 46ms
+22/07/05 15:07:07 017 [debug]: ---------------------------------------------
+22/07/05 15:07:08 344 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:07:08 345 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 15:07:08 346 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=211
+22/07/05 15:07:08 351 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:07:08 352 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:07:08 354 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:07:08 355 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 15:07:08 361 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 16ms
+22/07/05 15:07:08 362 [debug]: ---------------------------------------------
+22/07/05 15:07:12 583 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:07:12 584 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 15:07:12 585 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=200
+22/07/05 15:07:12 588 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:07:12 589 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:07:12 591 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:07:12 592 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 15:07:12 598 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+22/07/05 15:07:12 599 [debug]: ---------------------------------------------
+22/07/05 15:07:13 554 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:07:13 555 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 15:07:13 556 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=200
+22/07/05 15:07:13 558 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:07:13 560 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:07:13 561 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:07:13 563 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 15:07:13 568 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/07/05 15:07:13 569 [debug]: ---------------------------------------------
+22/07/05 15:14:42 936 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:14:42 937 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 15:14:42 937 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=d200sf
+22/07/05 15:14:42 940 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:14:42 941 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:14:42 942 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:14:42 942 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 15:14:42 948 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 10ms
+22/07/05 15:14:42 949 [debug]: ---------------------------------------------
+22/07/05 15:15:17 706 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:15:17 707 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 15:15:17 708 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=d200sf
+22/07/05 15:15:17 710 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:15:17 711 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:15:17 712 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:15:17 713 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 15:15:17 721 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+22/07/05 15:15:17 722 [debug]: ---------------------------------------------
+22/07/05 15:15:28 482 [debug]: 클라이언트가 접속했습니다.
+22/07/05 15:15:28 483 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/05 15:15:28 484 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=300
+22/07/05 15:15:28 488 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:15:28 489 [debug]: [HTTP %s Params] %s=%s
+22/07/05 15:15:28 490 [error]: [Error] num1의 값이 없습니다.
+22/07/05 15:15:28 492 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 15:15:28 497 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/07/05 15:15:28 498 [debug]: ---------------------------------------------
+22/07/05 17:33:06 389 [debug]: --------------------------------------------------
+22/07/05 17:33:06 393 [debug]: |              Start Express Server              |
+22/07/05 17:33:06 395 [debug]: --------------------------------------------------
+22/07/05 17:33:06 397 [debug]: server address => http://192.168.199.1:3001
+22/07/05 17:33:06 398 [debug]: server address => http://192.168.233.1:3001
+22/07/05 17:33:06 399 [debug]: server address => http://192.168.1.82:3001
+22/07/05 17:33:06 400 [debug]: --------------------------------------------------
+22/07/05 17:33:09 118 [debug]: 클라이언트가 접속했습니다.
+22/07/05 17:33:09 119 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 17:33:09 122 [debug]: [GET] http://localhost:3001/api_test/custom_error
+22/07/05 17:33:09 138 [error]: [Error] 개발자가 직접 생성한 에러가 발생하였습니다.
+22/07/05 17:33:09 141 [error]: Error: 개발자가 직접 생성한 에러가 발생하였습니다.
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:12:19
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+    at router (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:47:12)
+22/07/05 17:33:09 158 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 39ms
+22/07/05 17:33:09 160 [debug]: ---------------------------------------------
+22/07/05 18:07:42 863 [debug]: --------------------------------------------------
+22/07/05 18:07:42 867 [debug]: |              Start Express Server              |
+22/07/05 18:07:42 868 [debug]: --------------------------------------------------
+22/07/05 18:07:42 870 [debug]: server address => http://192.168.199.1:3001
+22/07/05 18:07:42 871 [debug]: server address => http://192.168.233.1:3001
+22/07/05 18:07:42 872 [debug]: server address => http://192.168.1.82:3001
+22/07/05 18:07:42 874 [debug]: --------------------------------------------------
+22/07/05 18:07:49 466 [debug]: 클라이언트가 접속했습니다.
+22/07/05 18:07:49 467 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 18:07:49 471 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=d200sf
+22/07/05 18:07:49 487 [debug]: [HTTP %s Params] %s=%s
+22/07/05 18:07:49 490 [debug]: [HTTP %s Params] %s=%s
+22/07/05 18:07:49 493 [error]: [Error] num1의 값이 없습니다.
+22/07/05 18:07:49 495 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:19:7)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 18:07:49 512 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 45ms
+22/07/05 18:07:49 515 [debug]: ---------------------------------------------
+22/07/05 18:07:54 739 [debug]: 클라이언트가 접속했습니다.
+22/07/05 18:07:54 741 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 18:07:54 742 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 18:07:54 748 [debug]: [HTTP %s Params] %s=%s
+22/07/05 18:07:54 750 [debug]: [HTTP %s Params] %s=%s
+22/07/05 18:07:54 752 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 18:07:54 753 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:16:23)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 18:07:54 759 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 18ms
+22/07/05 18:07:54 760 [debug]: ---------------------------------------------
+22/07/05 20:34:04 315 [debug]: --------------------------------------------------
+22/07/05 20:34:04 320 [debug]: |              Start Express Server              |
+22/07/05 20:34:04 321 [debug]: --------------------------------------------------
+22/07/05 20:34:04 322 [debug]: server address => http://192.168.199.1:3001
+22/07/05 20:34:04 324 [debug]: server address => http://192.168.233.1:3001
+22/07/05 20:34:04 325 [debug]: server address => http://192.168.0.196:3001
+22/07/05 20:34:04 326 [debug]: --------------------------------------------------
+22/07/05 20:34:10 617 [debug]: 클라이언트가 접속했습니다.
+22/07/05 20:34:10 619 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 20:34:10 621 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 20:34:10 635 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:34:10 636 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:34:10 638 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 20:34:10 641 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:19:31)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 20:34:10 657 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 39ms
+22/07/05 20:34:10 659 [debug]: ---------------------------------------------
+22/07/05 20:34:17 860 [debug]: 클라이언트가 접속했습니다.
+22/07/05 20:34:17 862 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 20:34:17 863 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 20:34:17 869 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:34:17 870 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:34:17 872 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 20:34:17 873 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:19:31)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 20:34:17 880 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 19ms
+22/07/05 20:34:17 881 [debug]: ---------------------------------------------
+22/07/05 20:34:29 863 [debug]: 클라이언트가 접속했습니다.
+22/07/05 20:34:29 863 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 20:34:29 865 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=d200sf
+22/07/05 20:34:29 869 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:34:29 870 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:34:29 871 [error]: [Error] num1의 값이 없습니다.
+22/07/05 20:34:29 872 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 20:34:29 878 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/07/05 20:34:29 879 [debug]: ---------------------------------------------
+22/07/05 20:40:18 760 [debug]: --------------------------------------------------
+22/07/05 20:40:18 766 [debug]: |              Start Express Server              |
+22/07/05 20:40:18 767 [debug]: --------------------------------------------------
+22/07/05 20:40:18 768 [debug]: server address => http://192.168.199.1:3001
+22/07/05 20:40:18 769 [debug]: server address => http://192.168.233.1:3001
+22/07/05 20:40:18 770 [debug]: server address => http://192.168.0.196:3001
+22/07/05 20:40:18 771 [debug]: --------------------------------------------------
+22/07/05 20:40:22 008 [debug]: 클라이언트가 접속했습니다.
+22/07/05 20:40:22 009 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 20:40:22 012 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=d200sf
+22/07/05 20:40:22 026 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:40:22 028 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:40:22 029 [error]: [Error] num1의 값이 없습니다.
+22/07/05 20:40:22 030 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 20:40:22 045 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 36ms
+22/07/05 20:40:22 047 [debug]: ---------------------------------------------
+22/07/05 20:40:23 473 [debug]: 클라이언트가 접속했습니다.
+22/07/05 20:40:23 474 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 20:40:23 475 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=d200sf
+22/07/05 20:40:23 482 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:40:23 484 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:40:23 485 [error]: [Error] num1의 값이 없습니다.
+22/07/05 20:40:23 486 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 20:40:23 493 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 19ms
+22/07/05 20:40:23 494 [debug]: ---------------------------------------------
+22/07/05 20:40:24 045 [debug]: 클라이언트가 접속했습니다.
+22/07/05 20:40:24 047 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 20:40:24 048 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=d200sf
+22/07/05 20:40:24 052 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:40:24 052 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:40:24 054 [error]: [Error] num1의 값이 없습니다.
+22/07/05 20:40:24 055 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 20:40:24 062 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/07/05 20:40:24 063 [debug]: ---------------------------------------------
+22/07/05 20:44:49 640 [debug]: --------------------------------------------------
+22/07/05 20:44:49 645 [debug]: |              Start Express Server              |
+22/07/05 20:44:49 646 [debug]: --------------------------------------------------
+22/07/05 20:44:49 647 [debug]: server address => http://192.168.199.1:3001
+22/07/05 20:44:49 648 [debug]: server address => http://192.168.233.1:3001
+22/07/05 20:44:49 649 [debug]: server address => http://192.168.0.196:3001
+22/07/05 20:44:49 649 [debug]: --------------------------------------------------
+22/07/05 20:44:52 438 [debug]: 클라이언트가 접속했습니다.
+22/07/05 20:44:52 439 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 20:44:52 441 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=d200sf
+22/07/05 20:44:52 457 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:44:52 459 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:44:52 460 [error]: [Error] num1의 값이 없습니다.
+22/07/05 20:44:52 461 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:22:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 20:44:52 476 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 37ms
+22/07/05 20:44:52 479 [debug]: ---------------------------------------------
+22/07/05 20:44:56 091 [debug]: 클라이언트가 접속했습니다.
+22/07/05 20:44:56 092 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 20:44:56 093 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 20:44:56 097 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:44:56 098 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:44:56 100 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 20:44:56 101 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:19:31)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 20:44:56 107 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/07/05 20:44:56 109 [debug]: ---------------------------------------------
+22/07/05 20:44:57 155 [debug]: 클라이언트가 접속했습니다.
+22/07/05 20:44:57 157 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 20:44:57 157 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 20:44:57 161 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:44:57 162 [debug]: [HTTP %s Params] %s=%s
+22/07/05 20:44:57 164 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 20:44:57 165 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:19:31)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 20:44:57 173 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 16ms
+22/07/05 20:44:57 174 [debug]: ---------------------------------------------
+22/07/05 21:06:43 924 [debug]: --------------------------------------------------
+22/07/05 21:06:43 929 [debug]: |              Start Express Server              |
+22/07/05 21:06:43 930 [debug]: --------------------------------------------------
+22/07/05 21:06:43 932 [debug]: server address => http://192.168.199.1:3001
+22/07/05 21:06:43 933 [debug]: server address => http://192.168.233.1:3001
+22/07/05 21:06:43 935 [debug]: server address => http://192.168.0.196:3001
+22/07/05 21:06:43 936 [debug]: --------------------------------------------------
+22/07/05 21:06:48 592 [debug]: 클라이언트가 접속했습니다.
+22/07/05 21:06:48 594 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 21:06:48 597 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 21:06:48 614 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:06:48 617 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:06:48 621 [error]: [Error] num1의 값이 없습니다.
+22/07/05 21:06:48 623 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:20:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 21:06:48 645 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 51ms
+22/07/05 21:06:48 647 [debug]: ---------------------------------------------
+22/07/05 21:07:01 522 [debug]: 클라이언트가 접속했습니다.
+22/07/05 21:07:01 523 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 21:07:01 525 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=232
+22/07/05 21:07:01 532 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:07:01 533 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:07:01 535 [error]: [TypeError] Cannot read properties of undefined (reading 'trim')
+22/07/05 21:07:01 536 [error]: TypeError: Cannot read properties of undefined (reading 'trim')
+    at RegexHelper.field (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:132:29)
+    at RegexHelper.num (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:148:21)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:29:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+22/07/05 21:07:01 543 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 20ms
+22/07/05 21:07:01 544 [debug]: ---------------------------------------------
+22/07/05 21:08:36 525 [debug]: --------------------------------------------------
+22/07/05 21:08:36 529 [debug]: |              Start Express Server              |
+22/07/05 21:08:36 531 [debug]: --------------------------------------------------
+22/07/05 21:08:36 532 [debug]: server address => http://192.168.199.1:3001
+22/07/05 21:08:36 533 [debug]: server address => http://192.168.233.1:3001
+22/07/05 21:08:36 535 [debug]: server address => http://192.168.0.196:3001
+22/07/05 21:08:36 535 [debug]: --------------------------------------------------
+22/07/05 21:08:40 346 [debug]: 클라이언트가 접속했습니다.
+22/07/05 21:08:40 348 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 21:08:40 351 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=232
+22/07/05 21:08:40 363 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:08:40 365 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:08:40 367 [error]: [TypeError] Cannot read properties of undefined (reading 'trim')
+22/07/05 21:08:40 368 [error]: TypeError: Cannot read properties of undefined (reading 'trim')
+    at RegexHelper.field (file:///C:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:132:29)
+    at RegexHelper.num (file:///C:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:148:21)
+    at file:///C:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:29:25
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+22/07/05 21:08:40 384 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 36ms
+22/07/05 21:08:40 386 [debug]: ---------------------------------------------
+22/07/05 21:10:36 602 [debug]: --------------------------------------------------
+22/07/05 21:10:36 606 [debug]: |              Start Express Server              |
+22/07/05 21:10:36 607 [debug]: --------------------------------------------------
+22/07/05 21:10:36 609 [debug]: server address => http://192.168.199.1:3001
+22/07/05 21:10:36 610 [debug]: server address => http://192.168.233.1:3001
+22/07/05 21:10:36 612 [debug]: server address => http://192.168.0.196:3001
+22/07/05 21:10:36 613 [debug]: --------------------------------------------------
+22/07/05 21:10:44 639 [debug]: 클라이언트가 접속했습니다.
+22/07/05 21:10:44 641 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 21:10:44 644 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=232
+22/07/05 21:10:44 658 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:10:44 662 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:10:44 664 [error]: [TypeError] this.field is not a function
+22/07/05 21:10:44 666 [error]: TypeError: this.field is not a function
+    at RegexHelper.num (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:145:21)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:29:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 21:10:44 684 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 43ms
+22/07/05 21:10:44 685 [debug]: ---------------------------------------------
+22/07/05 21:11:18 201 [debug]: --------------------------------------------------
+22/07/05 21:11:18 206 [debug]: |              Start Express Server              |
+22/07/05 21:11:18 208 [debug]: --------------------------------------------------
+22/07/05 21:11:18 209 [debug]: server address => http://192.168.199.1:3001
+22/07/05 21:11:18 211 [debug]: server address => http://192.168.233.1:3001
+22/07/05 21:11:18 212 [debug]: server address => http://192.168.0.196:3001
+22/07/05 21:11:18 213 [debug]: --------------------------------------------------
+22/07/05 21:11:24 117 [debug]: 클라이언트가 접속했습니다.
+22/07/05 21:11:24 119 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 21:11:24 122 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=232
+22/07/05 21:11:24 137 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:11:24 141 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:11:24 145 [error]: [TypeError] this.field is not a function
+22/07/05 21:11:24 146 [error]: TypeError: this.field is not a function
+    at RegexHelper.num (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:145:21)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:29:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 21:11:24 164 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 45ms
+22/07/05 21:11:24 166 [debug]: ---------------------------------------------
+22/07/05 21:12:00 746 [debug]: --------------------------------------------------
+22/07/05 21:12:00 751 [debug]: |              Start Express Server              |
+22/07/05 21:12:00 752 [debug]: --------------------------------------------------
+22/07/05 21:12:00 754 [debug]: server address => http://192.168.199.1:3001
+22/07/05 21:12:00 756 [debug]: server address => http://192.168.233.1:3001
+22/07/05 21:12:00 757 [debug]: server address => http://192.168.0.196:3001
+22/07/05 21:12:00 758 [debug]: --------------------------------------------------
+22/07/05 21:12:05 083 [debug]: 클라이언트가 접속했습니다.
+22/07/05 21:12:05 084 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 21:12:05 087 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=232
+22/07/05 21:12:05 101 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:12:05 106 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:12:05 108 [error]: [TypeError] Cannot read properties of undefined (reading 'trim')
+22/07/05 21:12:05 111 [error]: TypeError: Cannot read properties of undefined (reading 'trim')
+    at RegexHelper.content (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:132:42)
+    at RegexHelper.num (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:145:21)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:29:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+22/07/05 21:12:05 127 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 42ms
+22/07/05 21:12:05 129 [debug]: ---------------------------------------------
+22/07/05 21:46:54 633 [debug]: --------------------------------------------------
+22/07/05 21:46:54 638 [debug]: |              Start Express Server              |
+22/07/05 21:46:54 639 [debug]: --------------------------------------------------
+22/07/05 21:46:54 640 [debug]: server address => http://192.168.199.1:3001
+22/07/05 21:46:54 642 [debug]: server address => http://192.168.233.1:3001
+22/07/05 21:46:54 643 [debug]: server address => http://192.168.0.196:3001
+22/07/05 21:46:54 644 [debug]: --------------------------------------------------
+22/07/05 21:47:10 137 [debug]: --------------------------------------------------
+22/07/05 21:47:10 140 [debug]: |              Start Express Server              |
+22/07/05 21:47:10 141 [debug]: --------------------------------------------------
+22/07/05 21:47:10 142 [debug]: server address => http://192.168.199.1:3001
+22/07/05 21:47:10 143 [debug]: server address => http://192.168.233.1:3001
+22/07/05 21:47:10 144 [debug]: server address => http://192.168.0.196:3001
+22/07/05 21:47:10 145 [debug]: --------------------------------------------------
+22/07/05 21:47:12 089 [debug]: 클라이언트가 접속했습니다.
+22/07/05 21:47:12 090 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 21:47:12 092 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=232
+22/07/05 21:47:12 106 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:47:12 109 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:47:12 111 [error]: [Error] num1의 값이 없습니다.
+22/07/05 21:47:12 112 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:13:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 21:47:12 125 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 35ms
+22/07/05 21:47:12 126 [debug]: ---------------------------------------------
+22/07/05 21:47:22 795 [debug]: 클라이언트가 접속했습니다.
+22/07/05 21:47:22 796 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 21:47:22 797 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 21:47:22 802 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:47:22 803 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:47:22 806 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 21:47:22 807 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:10:31)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 21:47:22 812 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 16ms
+22/07/05 21:47:22 813 [debug]: ---------------------------------------------
+22/07/05 21:49:54 029 [debug]: --------------------------------------------------
+22/07/05 21:49:54 034 [debug]: |              Start Express Server              |
+22/07/05 21:49:54 035 [debug]: --------------------------------------------------
+22/07/05 21:49:54 036 [debug]: server address => http://192.168.199.1:3001
+22/07/05 21:49:54 036 [debug]: server address => http://192.168.233.1:3001
+22/07/05 21:49:54 037 [debug]: server address => http://192.168.0.196:3001
+22/07/05 21:49:54 037 [debug]: --------------------------------------------------
+22/07/05 21:49:58 184 [debug]: 클라이언트가 접속했습니다.
+22/07/05 21:49:58 185 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 21:49:58 186 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 21:49:58 195 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:49:58 197 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:49:58 199 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 21:49:58 200 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:10:31)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 21:49:58 211 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 26ms
+22/07/05 21:49:58 212 [debug]: ---------------------------------------------
+22/07/05 21:49:59 987 [debug]: 클라이언트가 접속했습니다.
+22/07/05 21:49:59 988 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 21:49:59 989 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 21:49:59 993 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:49:59 994 [debug]: [HTTP %s Params] %s=%s
+22/07/05 21:49:59 996 [error]: [TypeError] Cannot read properties of null (reading 'value')
+22/07/05 21:49:59 997 [error]: TypeError: Cannot read properties of null (reading 'value')
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:10:31)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 21:50:00 003 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/07/05 21:50:00 005 [debug]: ---------------------------------------------
+22/07/05 22:22:27 387 [debug]: --------------------------------------------------
+22/07/05 22:22:27 391 [debug]: |              Start Express Server              |
+22/07/05 22:22:27 392 [debug]: --------------------------------------------------
+22/07/05 22:22:27 393 [debug]: server address => http://192.168.199.1:3001
+22/07/05 22:22:27 394 [debug]: server address => http://192.168.233.1:3001
+22/07/05 22:22:27 394 [debug]: server address => http://192.168.0.196:3001
+22/07/05 22:22:27 395 [debug]: --------------------------------------------------
+22/07/05 22:22:30 948 [debug]: 클라이언트가 접속했습니다.
+22/07/05 22:22:30 950 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 22:22:30 952 [debug]: [GET] http://localhost:3001/api_test/make_result
+22/07/05 22:22:30 963 [debug]: [HTTP %s Params] %s=%s
+22/07/05 22:22:30 966 [debug]: [HTTP %s Params] %s=%s
+22/07/05 22:22:30 968 [error]: [Error] num1의 값이 없습니다.
+22/07/05 22:22:30 969 [error]: Error: num1의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:12:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:28:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 22:22:30 981 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 31ms
+22/07/05 22:22:30 983 [debug]: ---------------------------------------------
+22/07/05 22:22:34 770 [debug]: 클라이언트가 접속했습니다.
+22/07/05 22:22:34 771 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 22:22:34 771 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=232
+22/07/05 22:22:34 776 [debug]: [HTTP %s Params] %s=%s
+22/07/05 22:22:34 776 [debug]: [HTTP %s Params] %s=%s
+22/07/05 22:22:34 778 [error]: [Error] num2의 값이 없습니다.
+22/07/05 22:22:34 779 [error]: Error: num2의 값이 없습니다.
+    at RegexHelper.value (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:12:19)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:30:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:175:3)
+22/07/05 22:22:34 784 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/07/05 22:22:34 785 [debug]: ---------------------------------------------
+22/07/05 22:22:40 557 [debug]: 클라이언트가 접속했습니다.
+22/07/05 22:22:40 558 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 22:22:40 560 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=232&num2=adsf
+22/07/05 22:22:40 564 [debug]: [HTTP %s Params] %s=%s
+22/07/05 22:22:40 565 [debug]: [HTTP %s Params] %s=%s
+22/07/05 22:22:40 566 [error]: [Error] num2는 숫자 형식만 가능합니다.
+22/07/05 22:22:40 567 [error]: Error: num2는 숫자 형식만 가능합니다.
+    at RegexHelper.field (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:30:19)
+    at RegexHelper.num (file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/helper/RegexHelper.js:43:21)
+    at file:///c:/Users/juae/Desktop/studynote/07-NodeJS/12-Route/controllers/ApiTest.js:31:25
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\layer.js:95:5)
+    at c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:346:12)
+    at next (c:\Users\juae\Desktop\studynote\07-NodeJS\12-Route\node_modules\express\lib\router\index.js:280:10)
+22/07/05 22:22:40 572 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+22/07/05 22:22:40 573 [debug]: ---------------------------------------------
+22/07/05 22:22:44 309 [debug]: 클라이언트가 접속했습니다.
+22/07/05 22:22:44 310 [debug]: [client] ::ffff:127.0.0.1 / unknown / insomnia (2022.4.2) / unknown
+22/07/05 22:22:44 311 [debug]: [GET] http://localhost:3001/api_test/make_result?num1=232&num2=300
+22/07/05 22:22:44 314 [debug]: [HTTP %s Params] %s=%s
+22/07/05 22:22:44 315 [debug]: [HTTP %s Params] %s=%s
+22/07/05 22:22:44 317 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/05 22:22:44 317 [debug]: ---------------------------------------------

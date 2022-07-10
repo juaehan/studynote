@@ -1,0 +1,96 @@
+22/07/07 11:14:06 221 [info]:  >> DATABASE 접속됨 [threaId=110]
+22/07/07 11:14:06 224 [info]:  >> Connection 임대됨 [threaId=110]
+22/07/07 11:14:06 227 [debug]: SELECT * FROM stude t
+22/07/07 11:14:06 330 [info]:  >> Connection 반남됨 [threaId=110]
+22/07/07 13:24:39 350 [info]:  >> DATABASE 접속됨 [threaId=111]
+22/07/07 13:26:25 886 [info]:  >> DATABASE 접속됨 [threaId=112]
+22/07/07 13:30:33 084 [info]:  >> DATABASE 접속됨 [threaId=113]
+22/07/07 13:34:38 935 [info]:  >> DATABASE 접속됨 [threaId=114]
+22/07/07 13:37:30 932 [info]:  >> DATABASE 접속됨 [threaId=115]
+22/07/07 13:37:59 538 [info]:  >> DATABASE 접속됨 [threaId=116]
+22/07/07 13:39:38 291 [info]:  >> DATABASE 접속됨 [threaId=117]
+22/07/07 13:40:30 354 [info]:  >> DATABASE 접속됨 [threaId=118]
+22/07/07 13:46:13 436 [info]:  >> DATABASE 접속됨 [threaId=119]
+22/07/07 13:58:03 572 [info]:  >> DATABASE 접속됨 [threaId=120]
+22/07/07 14:03:58 767 [info]:  >> DATABASE 접속됨 [threaId=121]
+22/07/07 14:47:48 116 [info]:  >> DATABASE 접속됨 [threaId=122]
+22/07/07 14:56:33 188 [info]:  >> DATABASE 접속됨 [threaId=123]
+22/07/07 14:56:33 194 [info]:  >> Connection 임대됨 [threaId=123]
+22/07/07 14:56:33 201 [debug]: SELECT dept o, d ame, loc FROM departme t WHWERE dept o='201';
+22/07/07 14:58:07 549 [info]:  >> DATABASE 접속됨 [threaId=124]
+22/07/07 14:58:07 554 [info]:  >> Connection 임대됨 [threaId=124]
+22/07/07 14:58:07 563 [debug]: SELECT dept o, d ame, loc FROM departme t WHWERE dept o='201';
+22/07/07 15:00:41 051 [info]:  >> DATABASE 접속됨 [threaId=125]
+22/07/07 15:00:41 057 [info]:  >> Connection 임대됨 [threaId=125]
+22/07/07 15:00:41 064 [debug]: SELECT dept o, d ame, loc FROM departme t WHWERE dept o='201';
+22/07/07 15:01:53 118 [info]:  >> DATABASE 접속됨 [threaId=126]
+22/07/07 15:04:21 237 [info]:  >> DATABASE 접속됨 [threaId=127]
+22/07/07 15:04:21 242 [info]:  >> Connection 임대됨 [threaId=127]
+22/07/07 15:04:21 247 [debug]: SELECT dept o, d ame, loc FROM departme t WHERE dept o='201'
+22/07/07 15:04:21 288 [info]:  >> Connection 반남됨 [threaId=127]
+22/07/07 15:04:59 920 [info]:  >> DATABASE 접속됨 [threaId=128]
+22/07/07 15:04:59 925 [info]:  >> Connection 임대됨 [threaId=128]
+22/07/07 15:04:59 930 [debug]: SELECT dept o, d ame, loc FROM departme t WHERE dept o='201'
+22/07/07 15:04:59 950 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', '풀스택', '%')
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 3
+22/07/07 15:04:59 964 [debug]: INSERT INTO departme t (d ame, loc) VALUES ('풀스택', '1401호');
+22/07/07 15:05:00 029 [debug]: DELETE FROM departme t WHERE dept o='300';
+22/07/07 15:05:00 035 [debug]: UPDATE departme t SET d ame='수정된학과', loc='수정된위치'
+  WHERE dept o='300';
+22/07/07 15:05:00 040 [debug]: SELECT COUNT(*) AS c t FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', '수정된학과', '%')
+  
+  OR loc LIKE co cat('%', '수정된위치', '%')
+22/07/07 15:05:00 049 [debug]: SELECT
+  prof o,  ame, userid, positio , sal,
+  date_format(hiredate, '%Y-%m-%d') as h_date,
+  comm, p.dept o, d ame, loc
+  FROM professor as p
+  INNER JOIN departme t as d
+  ON p.dept o = d.dept o
+
+  WHERE 
+  
+  d ame LIKE co cat('%', '수정된학과', '%')
+  
+  OR loc LIKE co cat('%', '수정된위치', '%')
+22/07/07 15:05:00 069 [info]:  >> Connection 반남됨 [threaId=128]
+22/07/07 15:06:23 812 [info]:  >> DATABASE 접속됨 [threaId=129]
+22/07/07 15:06:23 816 [info]:  >> Connection 임대됨 [threaId=129]
+22/07/07 15:06:23 819 [debug]: SELECT dept o, d ame, loc FROM departme t WHERE dept o='201'
+22/07/07 15:06:23 835 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', '풀스택', '%')
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 3
+22/07/07 15:06:23 840 [debug]: INSERT INTO departme t (d ame, loc) VALUES ('풀스택', '1401호');
+22/07/07 15:06:23 850 [debug]: DELETE FROM departme t WHERE dept o='300';
+22/07/07 15:06:23 854 [debug]: UPDATE departme t SET d ame='수정된학과', loc='수정된위치'
+  WHERE dept o='300';
+22/07/07 15:06:23 858 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/07 15:06:23 883 [debug]: SELECT
+  prof o,  ame, userid, positio , sal,
+  date_format(hiredate, '%Y-%m-%d') as h_date,
+  comm, p.dept o, d ame, loc
+  FROM professor as p
+  INNER JOIN departme t as d
+  ON p.dept o = d.dept o
+22/07/07 15:06:23 905 [info]:  >> Connection 반남됨 [threaId=129]

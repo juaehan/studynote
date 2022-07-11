@@ -54,6 +54,7 @@ app.use((req, res, next) => {
 
     // 클라이언트의 디바이스 정보 기록 (UserAgent 사용)
     logger.debug(`[client] ${ip} / ${req.useragent.os} / ${req.useragent.browser} (${req.useragent.version}) / ${req.useragent.platform}`);
+    // 22/06/29 14:16:41 679 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
 
     // 클라이언트가 요청한 페이지 URL
     // 콜백함수에 전달되는 req 파라미터는 클라이언트가 요청한 URL의 각 부분을 변수로 담고 있다.
@@ -65,6 +66,7 @@ app.use((req, res, next) => {
     });
 
     logger.debug(`[${req.method}] ${decodeURIComponent(current_url)}`);
+    // 22/06/29 14:16:41 682 [debug]: [GET] http://localhost:3001/send_get?answer=3000&username=dfs&password=asdf&email=asdf@dfa
 
     // 클라이언트의 접속이 종료된 경우의 이벤트 --> 모든 응답의 전송이 완료된 경우
     res.on('finish', () => {
@@ -74,6 +76,7 @@ app.use((req, res, next) => {
         // 이번 접속에서 클라이언트가 머문 시간 = 백엔드가 실행하는게 걸린 시간
         const time = endTime - beginTime;
         logger.debug(`클라이언트의 접속이 종료되었습니다. ::: [runtime] ${time}ms`);
+        // 22/06/29 14:16:41 706 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 27ms
         logger.debug('---------------------------------------------');
     });
 

@@ -96,6 +96,9 @@ process.on('exit', () => {
 /*----------------------------------------------------------
 | 4) Express 객체의 추가 설정
 -----------------------------------------------------------*/
+// cors 종료
+app.use(cors());
+
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.text());
 app.use(bodyParser.json());
@@ -115,8 +118,7 @@ app.use(process.env.THUMB_URL, serveStatic(process.env.THUMB_DIR));
 app.use(serveFavicon(process.env.FAVICON_PATH));
 app.use(WebHelper());
 
-// cors 종료
-app.use(cors());
+
 
 /*----------------------------------------------------------
 | 5) 각 URL별 백엔드 기능 정의

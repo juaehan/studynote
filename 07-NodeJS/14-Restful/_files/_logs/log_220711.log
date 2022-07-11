@@ -1,0 +1,1209 @@
+22/07/11 10:58:31 238 [debug]: --------------------------------------------------
+22/07/11 10:58:31 244 [debug]: |              Start Express Server              |
+22/07/11 10:58:31 245 [debug]: --------------------------------------------------
+22/07/11 10:58:31 246 [debug]: server address => http://192.168.199.1:3001
+22/07/11 10:58:31 247 [debug]: server address => http://192.168.233.1:3001
+22/07/11 10:58:31 248 [debug]: server address => http://192.168.0.15:3001
+22/07/11 10:58:31 250 [debug]: --------------------------------------------------
+22/07/11 11:09:21 576 [debug]: 클라이언트가 접속했습니다.
+22/07/11 11:09:21 586 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 11:09:21 593 [debug]: [GET] http://localhost:3001/department
+22/07/11 11:09:21 618 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 32ms
+22/07/11 11:09:21 619 [debug]: ---------------------------------------------
+22/07/11 11:09:21 631 [debug]: 클라이언트가 접속했습니다.
+22/07/11 11:09:21 632 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 11:09:21 633 [debug]: [GET] http://localhost:3001/department/
+22/07/11 11:09:21 643 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:09:21 645 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:09:21 646 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:09:21 852 [info]:  >> DATABASE 접속됨 [threaId=159]
+22/07/11 11:09:21 853 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 11:09:21 865 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 11:09:21 953 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 11:09:21 954 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 11:09:21 960 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 11:09:21 973 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 11:09:21 981 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 349ms
+22/07/11 11:09:21 982 [debug]: ---------------------------------------------
+22/07/11 11:09:21 986 [debug]: 클라이언트가 접속했습니다.
+22/07/11 11:09:21 987 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 11:09:21 989 [debug]: [GET] http://localhost:3001/department/
+22/07/11 11:09:21 996 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:09:21 997 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:09:21 999 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:09:22 002 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 11:09:22 005 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 11:09:22 015 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 11:09:22 016 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 11:09:22 024 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 11:09:22 031 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 11:09:22 035 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 48ms
+22/07/11 11:09:22 036 [debug]: ---------------------------------------------
+22/07/11 11:22:23 191 [debug]: 클라이언트가 접속했습니다.
+22/07/11 11:22:23 193 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 11:22:23 195 [debug]: [GET] http://localhost:3001/department/
+22/07/11 11:22:23 198 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:22:23 202 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:22:23 205 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:22:23 205 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 11:22:23 207 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 11:22:23 220 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 11:22:23 222 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 11:22:23 224 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 11:22:23 227 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 11:22:23 230 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 38ms
+22/07/11 11:22:23 232 [debug]: ---------------------------------------------
+22/07/11 11:22:23 238 [debug]: 클라이언트가 접속했습니다.
+22/07/11 11:22:23 239 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 11:22:23 240 [debug]: [GET] http://localhost:3001/department/
+22/07/11 11:22:23 243 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:22:23 244 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:22:23 245 [debug]: [HTTP %s Params] %s=%s
+22/07/11 11:22:23 247 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 11:22:23 250 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 11:22:23 253 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 11:22:23 254 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 11:22:23 255 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 11:22:23 257 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 11:22:23 259 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 20ms
+22/07/11 11:22:23 259 [debug]: ---------------------------------------------
+22/07/11 12:40:03 915 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:40:03 917 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:40:03 918 [debug]: [GET] http://localhost:3001/department?query=공학&page=2&rows=5
+22/07/11 12:40:03 926 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/11 12:40:03 928 [debug]: ---------------------------------------------
+22/07/11 12:40:03 932 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:40:03 937 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:40:03 939 [debug]: [GET] http://localhost:3001/department/?query=공학&page=2&rows=5
+22/07/11 12:40:03 944 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:03 945 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:03 946 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:03 946 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:40:03 950 [debug]: SELECT COUNT(*) AS c t FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', '공학', '%')
+  
+  OR loc LIKE co cat('%', '공학', '%')
+22/07/11 12:40:03 978 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:40:03 979 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:40:03 982 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', '공학', '%')
+  
+  OR loc LIKE co cat('%', '공학', '%')
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 5, 5
+22/07/11 12:40:03 984 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:40:03 986 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 12:40:03 988 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/services/DepartmentService.js:29:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/controllers/DepartmentController.js:39:20
+22/07/11 12:40:03 991 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 54ms
+22/07/11 12:40:03 992 [debug]: ---------------------------------------------
+22/07/11 12:40:03 994 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:40:03 995 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:40:03 996 [debug]: [GET] http://localhost:3001/department/?query=공학&page=2&rows=5
+22/07/11 12:40:03 998 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:03 999 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:04 000 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:04 001 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:40:04 003 [debug]: SELECT COUNT(*) AS c t FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', '공학', '%')
+  
+  OR loc LIKE co cat('%', '공학', '%')
+22/07/11 12:40:04 005 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:40:04 006 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:40:04 008 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', '공학', '%')
+  
+  OR loc LIKE co cat('%', '공학', '%')
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 5, 5
+22/07/11 12:40:04 010 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:40:04 011 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 12:40:04 011 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/services/DepartmentService.js:29:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/controllers/DepartmentController.js:39:20
+22/07/11 12:40:04 014 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 19ms
+22/07/11 12:40:04 015 [debug]: ---------------------------------------------
+22/07/11 12:40:18 804 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:40:18 806 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:40:18 809 [debug]: [GET] http://localhost:3001/department?query=Node&page=2&rows=5
+22/07/11 12:40:18 813 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/11 12:40:18 813 [debug]: ---------------------------------------------
+22/07/11 12:40:18 816 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:40:18 817 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:40:18 818 [debug]: [GET] http://localhost:3001/department/?query=Node&page=2&rows=5
+22/07/11 12:40:18 822 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:18 823 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:18 823 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:18 823 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:40:18 825 [debug]: SELECT COUNT(*) AS c t FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', 'Node', '%')
+  
+  OR loc LIKE co cat('%', 'Node', '%')
+22/07/11 12:40:18 826 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:40:18 827 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:40:18 828 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', 'Node', '%')
+  
+  OR loc LIKE co cat('%', 'Node', '%')
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 5, 5
+22/07/11 12:40:18 831 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:40:18 832 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 12:40:18 832 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/services/DepartmentService.js:29:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/controllers/DepartmentController.js:39:20
+22/07/11 12:40:18 835 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 18ms
+22/07/11 12:40:18 835 [debug]: ---------------------------------------------
+22/07/11 12:40:23 368 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:40:23 370 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:40:23 372 [debug]: [GET] http://localhost:3001/department?query=이게&page=2&rows=5
+22/07/11 12:40:23 375 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/11 12:40:23 376 [debug]: ---------------------------------------------
+22/07/11 12:40:23 380 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:40:23 381 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:40:23 381 [debug]: [GET] http://localhost:3001/department/?query=이게&page=2&rows=5
+22/07/11 12:40:23 383 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:23 384 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:23 385 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:23 386 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:40:23 388 [debug]: SELECT COUNT(*) AS c t FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', '이게', '%')
+  
+  OR loc LIKE co cat('%', '이게', '%')
+22/07/11 12:40:23 390 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:40:23 390 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:40:23 391 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', '이게', '%')
+  
+  OR loc LIKE co cat('%', '이게', '%')
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 5, 5
+22/07/11 12:40:23 393 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:40:23 393 [error]: [Error] 조회된 데이터가 없습니다.
+22/07/11 12:40:23 394 [error]: Error: 조회된 데이터가 없습니다.
+    at DepartmentService.getList (file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/services/DepartmentService.js:29:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/controllers/DepartmentController.js:39:20
+22/07/11 12:40:23 396 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 15ms
+22/07/11 12:40:23 397 [debug]: ---------------------------------------------
+22/07/11 12:40:33 814 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:40:33 815 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:40:33 818 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:40:33 821 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:33 821 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:33 822 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:33 823 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:40:33 824 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 12:40:33 829 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:40:33 830 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:40:33 831 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 12:40:33 833 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:40:33 835 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 20ms
+22/07/11 12:40:33 835 [debug]: ---------------------------------------------
+22/07/11 12:40:42 238 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:40:42 239 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:40:42 241 [debug]: [GET] http://localhost:3001/department?query=MVC학과&page=2&rows=5
+22/07/11 12:40:42 244 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/11 12:40:42 245 [debug]: ---------------------------------------------
+22/07/11 12:40:42 248 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:40:42 249 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:40:42 249 [debug]: [GET] http://localhost:3001/department/?query=MVC학과&page=2&rows=5
+22/07/11 12:40:42 251 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:42 251 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:42 252 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:40:42 252 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:40:42 254 [debug]: SELECT COUNT(*) AS c t FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', 'MVC학과', '%')
+  
+  OR loc LIKE co cat('%', 'MVC학과', '%')
+22/07/11 12:40:42 255 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:40:42 255 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:40:42 258 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', 'MVC학과', '%')
+  
+  OR loc LIKE co cat('%', 'MVC학과', '%')
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 5, 5
+22/07/11 12:40:42 259 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:40:42 261 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/11 12:40:42 262 [debug]: ---------------------------------------------
+22/07/11 12:46:17 360 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:46:17 361 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:46:17 362 [debug]: [GET] http://localhost:3001/department/?query=MVC학과&page=2&rows=5
+22/07/11 12:46:17 365 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:46:17 366 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:46:17 367 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:46:17 369 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:46:17 372 [debug]: SELECT COUNT(*) AS c t FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', 'MVC학과', '%')
+  
+  OR loc LIKE co cat('%', 'MVC학과', '%')
+22/07/11 12:46:17 375 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:46:17 376 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:46:17 377 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', 'MVC학과', '%')
+  
+  OR loc LIKE co cat('%', 'MVC학과', '%')
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 5, 5
+22/07/11 12:46:17 381 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:46:17 384 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 23ms
+22/07/11 12:46:17 385 [debug]: ---------------------------------------------
+22/07/11 12:46:17 388 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:46:17 389 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:46:17 390 [debug]: [GET] http://localhost:3001/department/?query=MVC학과&page=2&rows=5
+22/07/11 12:46:17 393 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:46:17 393 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:46:17 395 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:46:17 395 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:46:17 397 [debug]: SELECT COUNT(*) AS c t FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', 'MVC학과', '%')
+  
+  OR loc LIKE co cat('%', 'MVC학과', '%')
+22/07/11 12:46:17 399 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:46:17 399 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:46:17 401 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', 'MVC학과', '%')
+  
+  OR loc LIKE co cat('%', 'MVC학과', '%')
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 5, 5
+22/07/11 12:46:17 404 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:46:17 407 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 17ms
+22/07/11 12:46:17 408 [debug]: ---------------------------------------------
+22/07/11 12:47:02 158 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:47:02 163 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:47:02 170 [debug]: [GET] http://localhost:3001/department/328
+22/07/11 12:47:02 181 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:47:02 183 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:47:02 188 [debug]: SELECT dept o, d ame, loc FROM departme t WHERE dept o='328'
+22/07/11 12:47:02 204 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:47:02 209 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 46ms
+22/07/11 12:47:02 210 [debug]: ---------------------------------------------
+22/07/11 12:47:40 695 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:47:40 696 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:47:40 698 [debug]: [OPTIONS] http://localhost:3001/department
+22/07/11 12:47:40 701 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/11 12:47:40 702 [debug]: ---------------------------------------------
+22/07/11 12:47:40 704 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:47:40 704 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:47:40 705 [debug]: [POST] http://localhost:3001/department
+22/07/11 12:47:40 740 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:47:40 741 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:47:40 742 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:47:40 744 [debug]: INSERT INTO departme t (d ame, loc) VALUES ('React.js', '1403호');
+22/07/11 12:47:40 809 [debug]: SELECT dept o, d ame, loc FROM departme t WHERE dept o='336'
+22/07/11 12:47:40 810 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:47:40 813 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 109ms
+22/07/11 12:47:40 814 [debug]: ---------------------------------------------
+22/07/11 12:48:01 246 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:48:01 247 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:48:01 249 [debug]: [GET] http://localhost:3001/department
+22/07/11 12:48:01 253 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/11 12:48:01 254 [debug]: ---------------------------------------------
+22/07/11 12:48:01 256 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:48:01 257 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:48:01 259 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:48:01 262 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:48:01 263 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:48:01 265 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:48:01 266 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:48:01 269 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 12:48:01 272 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:48:01 273 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:48:01 275 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 12:48:01 277 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:48:01 278 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 21ms
+22/07/11 12:48:01 278 [debug]: ---------------------------------------------
+22/07/11 12:48:46 604 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:48:46 605 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:48:46 606 [debug]: [OPTIONS] http://localhost:3001/department/326
+22/07/11 12:48:46 609 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/11 12:48:46 610 [debug]: ---------------------------------------------
+22/07/11 12:48:46 611 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:48:46 612 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:48:46 613 [debug]: [PUT] http://localhost:3001/department/326
+22/07/11 12:48:46 616 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:48:46 617 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:48:46 617 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:48:46 619 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:48:46 621 [debug]: UPDATE departme t SET d ame='React.js수정정', loc='1406호'
+  WHERE dept o='326';
+22/07/11 12:48:46 640 [debug]: SELECT dept o, d ame, loc FROM departme t WHERE dept o='326'
+22/07/11 12:48:46 642 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:48:46 644 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 32ms
+22/07/11 12:48:46 645 [debug]: ---------------------------------------------
+22/07/11 12:49:01 244 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:49:01 245 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:49:01 246 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:49:01 248 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:49:01 248 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:49:01 249 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:49:01 250 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:49:01 252 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 12:49:01 254 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:49:01 255 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:49:01 258 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 12:49:01 261 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:49:01 263 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 18ms
+22/07/11 12:49:01 264 [debug]: ---------------------------------------------
+22/07/11 12:49:24 910 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:49:24 911 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:49:24 912 [debug]: [OPTIONS] http://localhost:3001/department/323
+22/07/11 12:49:24 915 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/11 12:49:24 916 [debug]: ---------------------------------------------
+22/07/11 12:49:24 919 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:49:24 920 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:49:24 922 [debug]: [PUT] http://localhost:3001/department/323
+22/07/11 12:49:24 924 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:49:24 925 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:49:24 926 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:49:24 928 [error]: [Error] 학과이름이 없습니다.
+22/07/11 12:49:24 929 [error]: Error: 학과이름이 없습니다.
+    at RegexHelper.value (file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/helper/RegexHelper.js:12:19)
+    at file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/controllers/DepartmentController.js:113:25
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:421:3)
+22/07/11 12:49:24 934 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+22/07/11 12:49:24 934 [debug]: ---------------------------------------------
+22/07/11 12:49:41 700 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:49:41 701 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:49:41 704 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:49:41 707 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:49:41 708 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:49:41 711 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:49:41 713 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:49:41 715 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 12:49:41 720 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:49:41 721 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:49:41 723 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 12:49:41 725 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:49:41 727 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 26ms
+22/07/11 12:49:41 728 [debug]: ---------------------------------------------
+22/07/11 12:50:06 139 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:50:06 141 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:50:06 145 [debug]: [OPTIONS] http://localhost:3001/department/330
+22/07/11 12:50:06 152 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/07/11 12:50:06 153 [debug]: ---------------------------------------------
+22/07/11 12:50:06 156 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:50:06 158 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:50:06 159 [debug]: [PUT] http://localhost:3001/department/330
+22/07/11 12:50:06 161 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:50:06 161 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:50:06 162 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:50:06 162 [error]: [Error] 학과이름이 없습니다.
+22/07/11 12:50:06 164 [error]: Error: 학과이름이 없습니다.
+    at RegexHelper.value (file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/helper/RegexHelper.js:12:19)
+    at file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/controllers/DepartmentController.js:113:25
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:421:3)
+22/07/11 12:50:06 169 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 11ms
+22/07/11 12:50:06 169 [debug]: ---------------------------------------------
+22/07/11 12:50:22 805 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:50:22 806 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:50:22 807 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:50:22 809 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:50:22 810 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:50:22 811 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:50:22 813 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:50:22 815 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 12:50:22 817 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:50:22 818 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:50:22 819 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 12:50:22 821 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:50:22 822 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 16ms
+22/07/11 12:50:22 823 [debug]: ---------------------------------------------
+22/07/11 12:51:07 077 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:51:07 079 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:51:07 084 [debug]: [OPTIONS] http://localhost:3001/department/326
+22/07/11 12:51:07 088 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/11 12:51:07 090 [debug]: ---------------------------------------------
+22/07/11 12:51:07 094 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:51:07 096 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:51:07 099 [debug]: [PUT] http://localhost:3001/department/326
+22/07/11 12:51:07 105 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:51:07 107 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:51:07 109 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:51:07 113 [error]: [Error] 학과이름이 없습니다.
+22/07/11 12:51:07 116 [error]: Error: 학과이름이 없습니다.
+    at RegexHelper.value (file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/helper/RegexHelper.js:12:19)
+    at file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/controllers/DepartmentController.js:113:25
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:421:3)
+22/07/11 12:51:07 120 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 24ms
+22/07/11 12:51:07 121 [debug]: ---------------------------------------------
+22/07/11 12:51:07 124 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:51:07 125 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:51:07 125 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:51:07 127 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:51:07 128 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:51:07 129 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:51:07 130 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:51:07 131 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 12:51:07 135 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:51:07 135 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:51:07 137 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 12:51:07 139 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:51:07 141 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 17ms
+22/07/11 12:51:07 142 [debug]: ---------------------------------------------
+22/07/11 12:51:25 335 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:51:25 336 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:51:25 338 [debug]: [OPTIONS] http://localhost:3001/department/326
+22/07/11 12:51:25 341 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/11 12:51:25 342 [debug]: ---------------------------------------------
+22/07/11 12:51:25 344 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:51:25 345 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:51:25 347 [debug]: [PUT] http://localhost:3001/department/326
+22/07/11 12:51:25 349 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:51:25 351 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:51:25 358 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:51:25 359 [error]: [Error] 학과이름이 없습니다.
+22/07/11 12:51:25 360 [error]: Error: 학과이름이 없습니다.
+    at RegexHelper.value (file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/helper/RegexHelper.js:12:19)
+    at file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/controllers/DepartmentController.js:113:25
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:421:3)
+22/07/11 12:51:25 364 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 19ms
+22/07/11 12:51:25 365 [debug]: ---------------------------------------------
+22/07/11 12:55:50 389 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:55:50 390 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:55:50 393 [debug]: [GET] http://localhost:3001/department/
+22/07/11 12:55:50 395 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:55:50 396 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:55:50 397 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:55:50 398 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:55:50 401 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 12:55:50 405 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:55:50 406 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 12:55:50 408 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 12:55:50 410 [info]:  >> Connection 반남됨 [threaId=159]
+22/07/11 12:55:50 411 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 21ms
+22/07/11 12:55:50 412 [debug]: ---------------------------------------------
+22/07/11 12:56:12 710 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:56:12 711 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:56:12 712 [debug]: [OPTIONS] http://localhost:3001/department/317
+22/07/11 12:56:12 715 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/11 12:56:12 716 [debug]: ---------------------------------------------
+22/07/11 12:56:12 718 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:56:12 719 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:56:12 720 [debug]: [PUT] http://localhost:3001/department/317
+22/07/11 12:56:12 723 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:56:12 724 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:56:12 725 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:56:12 726 [error]: [Error] 학과이름이 없습니다.
+22/07/11 12:56:12 727 [error]: Error: 학과이름이 없습니다.
+    at RegexHelper.value (file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/helper/RegexHelper.js:12:19)
+    at file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/controllers/DepartmentController.js:113:25
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:421:3)
+22/07/11 12:56:12 731 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/11 12:56:12 732 [debug]: ---------------------------------------------
+22/07/11 12:56:59 929 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:56:59 930 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:56:59 931 [debug]: [OPTIONS] http://localhost:3001/department/202
+22/07/11 12:56:59 934 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 4ms
+22/07/11 12:56:59 935 [debug]: ---------------------------------------------
+22/07/11 12:56:59 937 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:56:59 938 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:56:59 940 [debug]: [PUT] http://localhost:3001/department/202
+22/07/11 12:56:59 944 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:56:59 946 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:56:59 947 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:56:59 948 [error]: [Error] 학과이름이 없습니다.
+22/07/11 12:56:59 949 [error]: Error: 학과이름이 없습니다.
+    at RegexHelper.value (file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/helper/RegexHelper.js:12:19)
+    at file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/controllers/DepartmentController.js:113:25
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:421:3)
+22/07/11 12:56:59 954 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 16ms
+22/07/11 12:56:59 955 [debug]: ---------------------------------------------
+22/07/11 12:58:07 250 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:58:07 250 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:58:07 252 [debug]: [OPTIONS] http://localhost:3001/department/326
+22/07/11 12:58:07 255 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/11 12:58:07 256 [debug]: ---------------------------------------------
+22/07/11 12:58:07 258 [debug]: 클라이언트가 접속했습니다.
+22/07/11 12:58:07 259 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 12:58:07 260 [debug]: [PUT] http://localhost:3001/department/326
+22/07/11 12:58:07 262 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:58:07 262 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:58:07 263 [debug]: [HTTP %s Params] %s=%s
+22/07/11 12:58:07 264 [error]: [Error] 학과이름이 없습니다.
+22/07/11 12:58:07 265 [error]: Error: 학과이름이 없습니다.
+    at RegexHelper.value (file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/helper/RegexHelper.js:12:19)
+    at file:///C:/Users/juae/Desktop/studynote/07-NodeJS/14-Restful/controllers/DepartmentController.js:113:25
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\juae\Desktop\studynote\07-NodeJS\14-Restful\node_modules\express\lib\router\index.js:421:3)
+22/07/11 12:58:07 267 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 8ms
+22/07/11 12:58:07 268 [debug]: ---------------------------------------------
+22/07/11 13:03:02 746 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:06:41 628 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:06:41 639 [debug]: [OPTIONS] http://localhost:3001/department/326
+22/07/11 13:06:41 644 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 16ms
+22/07/11 13:06:41 647 [debug]: ---------------------------------------------
+22/07/11 13:06:41 652 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:06:41 654 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:06:41 660 [debug]: [OPTIONS] http://localhost:3001/department/326
+22/07/11 13:06:41 671 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 17ms
+22/07/11 13:06:41 674 [debug]: ---------------------------------------------
+22/07/11 13:06:41 688 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:06:41 690 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:06:41 695 [debug]: [OPTIONS] http://localhost:3001/department/326
+22/07/11 13:06:41 704 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 14ms
+22/07/11 13:06:41 705 [debug]: ---------------------------------------------
+22/07/11 13:06:41 710 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:06:41 712 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:06:41 716 [debug]: [OPTIONS] http://localhost:3001/department/326
+22/07/11 13:06:41 719 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/11 13:06:41 720 [debug]: ---------------------------------------------
+22/07/11 13:06:41 723 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:06:41 725 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:06:41 728 [debug]: [OPTIONS] http://localhost:3001/department/326
+22/07/11 13:06:41 730 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/11 13:06:41 732 [debug]: ---------------------------------------------
+22/07/11 13:06:41 737 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:06:41 742 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:06:41 743 [debug]: [OPTIONS] http://localhost:3001/department/326
+22/07/11 13:06:41 746 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/11 13:06:41 748 [debug]: ---------------------------------------------
+22/07/11 13:06:41 751 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:06:41 753 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:06:41 757 [debug]: [OPTIONS] http://localhost:3001/department/326
+22/07/11 13:06:41 762 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/11 13:06:41 763 [debug]: ---------------------------------------------
+22/07/11 13:06:41 766 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:06:41 769 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:06:41 772 [debug]: [OPTIONS] http://localhost:3001/department/326
+22/07/11 13:06:41 776 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 7ms
+22/07/11 13:06:41 778 [debug]: ---------------------------------------------
+22/07/11 13:06:41 781 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:06:41 783 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:06:41 790 [debug]: [OPTIONS] http://localhost:3001/department/326
+22/07/11 13:06:41 793 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 9ms
+22/07/11 13:06:41 796 [debug]: ---------------------------------------------
+22/07/11 13:06:41 799 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:06:41 802 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:06:41 804 [debug]: [OPTIONS] http://localhost:3001/department/326
+22/07/11 13:06:41 808 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/11 13:06:41 809 [debug]: ---------------------------------------------
+22/07/11 13:06:41 812 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:06:41 815 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:06:41 821 [debug]: [GET] http://localhost:3001/department/
+22/07/11 13:06:41 829 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:06:41 830 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:06:41 837 [debug]: [DELETE] http://localhost:3001/department/326
+22/07/11 13:06:41 841 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:06:41 843 [info]:  >> Connection 임대됨 [threaId=159]
+22/07/11 13:06:41 846 [debug]: DELETE FROM stude t WHERE dept o='326';
+22/07/11 13:06:41 852 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:06:41 854 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:06:41 858 [debug]: [DELETE] http://localhost:3001/department/326
+22/07/11 13:06:41 864 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:06:49 935 [debug]: --------------------------------------------------
+22/07/11 13:06:49 938 [debug]: |              Start Express Server              |
+22/07/11 13:06:49 941 [debug]: --------------------------------------------------
+22/07/11 13:06:49 945 [debug]: server address => http://192.168.199.1:3001
+22/07/11 13:06:49 947 [debug]: server address => http://192.168.233.1:3001
+22/07/11 13:06:49 948 [debug]: server address => http://192.168.0.15:3001
+22/07/11 13:06:49 950 [debug]: --------------------------------------------------
+22/07/11 13:06:53 098 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:06:53 100 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:06:53 107 [debug]: [GET] http://localhost:3001/department/
+22/07/11 13:06:53 127 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:06:53 129 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:06:53 130 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:06:53 208 [info]:  >> DATABASE 접속됨 [threaId=163]
+22/07/11 13:06:53 210 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 13:06:53 221 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 13:06:53 236 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 13:06:53 239 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 13:06:53 244 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 13:06:53 249 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 13:06:53 266 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 166ms
+22/07/11 13:06:53 267 [debug]: ---------------------------------------------
+22/07/11 13:06:53 279 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:06:53 280 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:06:53 282 [debug]: [GET] http://localhost:3001/department/
+22/07/11 13:06:53 295 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:06:53 296 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:06:53 298 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:06:53 302 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 13:06:53 311 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 13:06:53 313 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 13:06:53 315 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 13:06:53 319 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 13:06:53 326 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 13:06:53 329 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 49ms
+22/07/11 13:06:53 329 [debug]: ---------------------------------------------
+22/07/11 13:07:18 506 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:07:18 508 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:07:18 510 [debug]: [OPTIONS] http://localhost:3001/department/326
+22/07/11 13:07:18 514 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 6ms
+22/07/11 13:07:18 515 [debug]: ---------------------------------------------
+22/07/11 13:07:18 520 [debug]: 클라이언트가 접속했습니다.
+22/07/11 13:07:18 521 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 13:07:18 523 [debug]: [DELETE] http://localhost:3001/department/326
+22/07/11 13:07:18 526 [debug]: [HTTP %s Params] %s=%s
+22/07/11 13:07:18 527 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 13:07:18 529 [debug]: DELETE FROM stude t WHERE dept o='326';
+22/07/11 13:07:18 538 [debug]: DELETE FROM professor WHERE dept o='326';
+22/07/11 13:07:18 542 [debug]: DELETE FROM departme t WHERE dept o='326';
+22/07/11 13:07:18 551 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 13:07:18 554 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 33ms
+22/07/11 13:07:18 555 [debug]: ---------------------------------------------
+22/07/11 16:14:55 645 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:14:55 661 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:14:55 664 [debug]: [GET] http://localhost:3001/department/
+22/07/11 16:14:55 678 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:14:55 679 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:14:55 680 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:14:55 681 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:14:55 693 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 16:14:55 746 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:14:55 747 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:14:55 750 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 16:14:55 752 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:14:55 759 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 99ms
+22/07/11 16:14:55 760 [debug]: ---------------------------------------------
+22/07/11 16:14:55 762 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:14:55 763 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:14:55 764 [debug]: [GET] http://localhost:3001/department/
+22/07/11 16:14:55 766 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:14:55 767 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:14:55 767 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:14:55 768 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:14:55 770 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 16:14:55 779 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:14:55 780 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:14:55 782 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 16:14:55 785 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:14:55 800 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 37ms
+22/07/11 16:14:55 800 [debug]: ---------------------------------------------
+22/07/11 16:22:24 605 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:22:24 606 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:22:24 607 [debug]: [GET] http://localhost:3001/department?rows=10
+22/07/11 16:22:24 619 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 13ms
+22/07/11 16:22:24 620 [debug]: ---------------------------------------------
+22/07/11 16:22:24 623 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:22:24 624 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:22:24 625 [debug]: [GET] http://localhost:3001/department/?rows=10
+22/07/11 16:22:24 631 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:22:24 632 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:22:24 634 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:22:24 635 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:22:24 637 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 16:22:24 641 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:22:24 641 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:22:24 642 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 16:22:24 648 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:22:24 653 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 29ms
+22/07/11 16:22:24 654 [debug]: ---------------------------------------------
+22/07/11 16:22:24 657 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:22:24 658 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:22:24 660 [debug]: [GET] http://localhost:3001/department/?rows=10
+22/07/11 16:22:24 668 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:22:24 669 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:22:24 670 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:22:24 671 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:22:24 673 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 16:22:24 689 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:22:24 690 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:22:24 693 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 16:22:24 697 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:22:24 699 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 41ms
+22/07/11 16:22:24 700 [debug]: ---------------------------------------------
+22/07/11 16:22:26 778 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:22:26 780 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:22:26 782 [debug]: [GET] http://localhost:3001/department?rows=20
+22/07/11 16:22:26 792 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 12ms
+22/07/11 16:22:26 793 [debug]: ---------------------------------------------
+22/07/11 16:22:26 796 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:22:26 797 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:22:26 799 [debug]: [GET] http://localhost:3001/department/?rows=20
+22/07/11 16:22:26 801 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:22:26 802 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:22:26 803 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:22:26 804 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:22:26 806 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 16:22:26 807 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:22:26 808 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:22:26 809 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 20
+22/07/11 16:22:26 813 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:22:26 816 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 19ms
+22/07/11 16:22:26 817 [debug]: ---------------------------------------------
+22/07/11 16:22:30 581 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:22:30 583 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:22:30 585 [debug]: [GET] http://localhost:3001/department?rows=30
+22/07/11 16:22:30 588 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/11 16:22:30 589 [debug]: ---------------------------------------------
+22/07/11 16:22:30 606 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:22:30 608 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:22:30 610 [debug]: [GET] http://localhost:3001/department/?rows=30
+22/07/11 16:22:30 614 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:22:30 616 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:22:30 619 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:22:30 620 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:22:30 622 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 16:22:30 625 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:22:30 626 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:22:30 628 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 30
+22/07/11 16:22:30 631 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:22:30 634 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 26ms
+22/07/11 16:22:30 635 [debug]: ---------------------------------------------
+22/07/11 16:22:33 381 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:22:33 384 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:22:33 386 [debug]: [GET] http://localhost:3001/department/?rows=10
+22/07/11 16:22:33 394 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:22:33 394 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:22:33 396 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:22:33 397 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:22:33 400 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 16:22:33 404 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:22:33 405 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:22:33 407 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 16:22:33 410 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:22:33 413 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 30ms
+22/07/11 16:22:33 415 [debug]: ---------------------------------------------
+22/07/11 16:36:21 057 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:36:21 059 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:36:21 067 [debug]: [GET] http://localhost:3001/department?query=&rows=10
+22/07/11 16:36:21 077 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 18ms
+22/07/11 16:36:21 086 [debug]: ---------------------------------------------
+22/07/11 16:36:21 128 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:36:21 129 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:36:21 130 [debug]: [GET] http://localhost:3001/department/?query=&rows=10
+22/07/11 16:36:21 135 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:21 138 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:21 139 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:21 142 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:36:21 147 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 16:36:21 153 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:36:21 156 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:36:21 163 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 16:36:21 164 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:36:21 167 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 38ms
+22/07/11 16:36:21 168 [debug]: ---------------------------------------------
+22/07/11 16:36:21 171 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:36:21 174 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:36:21 175 [debug]: [GET] http://localhost:3001/department/?query=&rows=10
+22/07/11 16:36:21 180 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:21 180 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:21 181 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:21 182 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:36:21 184 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 16:36:21 197 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:36:21 198 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:36:21 200 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 16:36:21 201 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:36:21 204 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 30ms
+22/07/11 16:36:21 205 [debug]: ---------------------------------------------
+22/07/11 16:36:27 635 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:36:27 636 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:36:27 638 [debug]: [GET] http://localhost:3001/department?query=풀스택&rows=10
+22/07/11 16:36:27 641 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 5ms
+22/07/11 16:36:27 642 [debug]: ---------------------------------------------
+22/07/11 16:36:27 670 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:36:27 671 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:36:27 672 [debug]: [GET] http://localhost:3001/department/?query=풀스택&rows=10
+22/07/11 16:36:27 676 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:27 676 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:27 678 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:27 679 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:36:27 683 [debug]: SELECT COUNT(*) AS c t FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', '풀스택', '%')
+  
+  OR loc LIKE co cat('%', '풀스택', '%')
+22/07/11 16:36:27 686 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:36:27 687 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:36:27 689 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  WHERE 
+  
+  d ame LIKE co cat('%', '풀스택', '%')
+  
+  OR loc LIKE co cat('%', '풀스택', '%')
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 16:36:27 692 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:36:27 694 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 23ms
+22/07/11 16:36:27 695 [debug]: ---------------------------------------------
+22/07/11 16:36:32 391 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:36:32 394 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:36:32 397 [debug]: [GET] http://localhost:3001/department/?query=&rows=10
+22/07/11 16:36:32 401 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:32 402 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:32 403 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:32 404 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:36:32 406 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 16:36:32 412 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:36:32 413 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:36:32 415 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 16:36:32 418 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:36:32 419 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 25ms
+22/07/11 16:36:32 420 [debug]: ---------------------------------------------
+22/07/11 16:36:34 815 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:36:34 816 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:36:34 819 [debug]: [GET] http://localhost:3001/department/?query=&rows=10
+22/07/11 16:36:34 824 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:34 825 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:34 826 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:34 827 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:36:34 833 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 16:36:34 837 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:36:34 838 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:36:34 843 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 16:36:34 847 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:36:34 850 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 34ms
+22/07/11 16:36:34 851 [debug]: ---------------------------------------------
+22/07/11 16:36:34 853 [debug]: 클라이언트가 접속했습니다.
+22/07/11 16:36:34 854 [debug]: [client] ::1 / Windows 10.0 / Chrome (103.0.0.0) / Microsoft Windows
+22/07/11 16:36:34 855 [debug]: [GET] http://localhost:3001/department/?query=&rows=10
+22/07/11 16:36:34 856 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:34 858 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:34 859 [debug]: [HTTP %s Params] %s=%s
+22/07/11 16:36:34 862 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:36:34 864 [debug]: SELECT COUNT(*) AS c t FROM departme t
+22/07/11 16:36:34 866 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:36:34 868 [info]:  >> Connection 임대됨 [threaId=163]
+22/07/11 16:36:34 873 [debug]: SELECT dept o, d ame, loc FROM departme t
+
+  
+  
+
+  ORDER BY dept o DESC
+
+  
+  LIMIT 0, 10
+22/07/11 16:36:34 876 [info]:  >> Connection 반남됨 [threaId=163]
+22/07/11 16:36:34 879 [debug]: 클라이언트의 접속이 종료되었습니다. ::: [runtime] 25ms
+22/07/11 16:36:34 880 [debug]: ---------------------------------------------
+22/07/11 16:42:31 398 [debug]: --------------------------------------------------
+22/07/11 16:42:31 403 [debug]: |              Start Express Server              |
+22/07/11 16:42:31 404 [debug]: --------------------------------------------------
+22/07/11 16:42:31 405 [debug]: server address => http://192.168.199.1:3001
+22/07/11 16:42:31 407 [debug]: server address => http://192.168.233.1:3001
+22/07/11 16:42:31 408 [debug]: server address => http://192.168.0.15:3001
+22/07/11 16:42:31 409 [debug]: --------------------------------------------------
+22/07/11 16:42:57 255 [debug]: --------------------------------------------------
+22/07/11 16:42:57 258 [debug]: |              Start Express Server              |
+22/07/11 16:42:57 259 [debug]: --------------------------------------------------
+22/07/11 16:42:57 261 [debug]: server address => http://192.168.199.1:3001
+22/07/11 16:42:57 261 [debug]: server address => http://192.168.233.1:3001
+22/07/11 16:42:57 262 [debug]: server address => http://192.168.0.15:3001
+22/07/11 16:42:57 263 [debug]: --------------------------------------------------
+22/07/11 16:42:58 880 [info]: -------- Server is close -------
